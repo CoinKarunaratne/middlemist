@@ -8,10 +8,7 @@ const Footer: FC = ({}) => {
         className="h-[600px] sm:h-[400px] bg-slate-600 w-full"
       >
         <div className="flex h-full w-full justify-center sm:justify-between">
-          <div
-            href="#home"
-            className="text-white text-[45px] font-bold align-text-bottom self-end p-8 hidden sm:flex"
-          >
+          <div className="text-white text-[45px] font-bold align-text-bottom self-end p-8 hidden sm:flex">
             Miidlemist Events
           </div>
           <div className="align-text-bottom self-end flex flex-col gap-4">
