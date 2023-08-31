@@ -1,35 +1,36 @@
+"use client";
+
 import { FC } from "react";
-import Image from "next/image";
-import { MenuItems } from "../constants";
+
+import LargeHeading from "./ui/LargeHeading";
+import Paragraph from "./ui/Paragraph";
+import Navbar from "./ui/Navbar";
 
 const Hero: FC = () => {
   return (
-    <>
-      {" "}
-      <div className="p-5 flex flex-row w-full">
-        <div className="flex-grow flex justify-center items-center">
-          <Image src="/Circular Logo.svg" alt="Logo" width={100} height={100} />
+    <main className="relative h-screen flex flex-col items-center justify-center overflow-x-hidden">
+      <Navbar />
+      <div className="pt-32 w-full mx-auto h-full bg-cover bg-[url('/background-3.jpg')]">
+        <div className="container max-w-7xl w-full mx-auto h-full">
+          <div className="h-full gap-6 flex flex-col justify-center items-center">
+            <LargeHeading
+              size="lg"
+              className="three-d text-[#FF776B] dark:text-light-gold self-center"
+            >
+              Middlemist Events
+            </LargeHeading>
+
+            <Paragraph className="max-w-xl font-semibold drop-shadow text-[#9D9FA2] mt-5 self-center">
+              Elevate your events with our vibrant balloons and wide range of
+              party essentials, making every moment a cherished memory
+            </Paragraph>
+            <button className="mt-24 comic-button self-center text-xl md:text-2xl lg:text-2xl">
+              See our collection
+            </button>
+          </div>
         </div>
-        <div>
-          <h1 className="text-black">Search</h1>
-        </div>
       </div>
-      <div className="flex flex-row gap-8 my-5 justify-center">
-        {MenuItems.map((content, position) => (
-          <h1 className="text-black" key={position}>
-            {content.name}
-          </h1>
-        ))}
-      </div>
-      <div>
-        <Image
-          src="/background.jpg"
-          alt="background-image"
-          width={10000}
-          height={10000}
-        />
-      </div>
-    </>
+    </main>
   );
 };
 

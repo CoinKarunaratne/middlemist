@@ -1,9 +1,45 @@
-export const MenuItems = [
+type MenuItem = {
+  name: string;
+  dropdownItems?: (string | { name: string; dropdownItems: string[] })[];
+};
+
+export const MenuItems: MenuItem[] = [
   { name: "NEW" },
-  { name: "PARTY SUPPLIES" },
-  { name: "BALLOONS" },
-  { name: "SHOP BY THEME" },
-  { name: "SHOP BY COLOUR" },
+  {
+    name: "PARTY SUPPLIES",
+    dropdownItems: ["Plates", "Cups", "Napkins", "Straws"],
+  },
+  {
+    name: "BALLOONS",
+    dropdownItems: ["DIY Balloons", "Foil Balloons", "Balloon Styling"],
+  },
+  { name: "PARTY BOXES" },
+  {
+    name: "SHOP BY THEME",
+    dropdownItems: [
+      {
+        name: "Kids Parties",
+        dropdownItems: [
+          "Unicorn",
+          "Mermaid",
+          "Princess",
+          "Space",
+          "Jungle",
+          "Bee",
+          "Dino",
+          "Butterfly",
+          "Circus",
+          "Cars",
+          "Building Blocks",
+          "Ice cream",
+        ],
+      },
+      {
+        name: "Occassions",
+        dropdownItems: ["Bridal Shower", "Baby Shower", "Gender Reveal"],
+      },
+    ],
+  },
   { name: "SALE" },
 ];
 
