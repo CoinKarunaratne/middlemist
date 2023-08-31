@@ -55,10 +55,10 @@ export default function Reviews() {
                   className="p-8 glass-card mx-2 h-52 xl:h-80 flex justify-center items-center flex-col"
                 >
                   <div>
-                    <p className="text-base text-[#231F20]">
+                    <p className="text-sm sm:text-base text-[#231F20]">
                       {review.description}
                     </p>
-                    <p className="text-right text-base text-[#231F20]">
+                    <p className="text-right text-sm sm:text-base text-[#231F20]">
                       {review.name}
                     </p>
                   </div>

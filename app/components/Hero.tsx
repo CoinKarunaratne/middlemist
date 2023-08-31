@@ -12,7 +12,7 @@ const Hero: FC = () => {
       <Navbar />
       <div className="pt-32 w-full mx-auto h-full bg-cover bg-[url('/background-3.jpg')]">
         <div className="container max-w-7xl w-full mx-auto h-full">
-          <div className="h-full gap-6 flex flex-col justify-center items-center">
+          <div className="h-full gap-6 flex flex-col justify-center items-center pb-20 sm:pb-0">
             <LargeHeading
               size="lg"
               className="three-d text-[#FF776B] self-center"
