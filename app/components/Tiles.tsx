@@ -80,7 +80,7 @@ const Carousel: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
 const Tiles = () => {
   return (
-    <div className="h-auto lg:h-screen flex flex-col gap-28 align-middle items-center justify-center overflow-hidden bg-[#FFEBEC]">
+    <div className="h-auto py-10 lg:py-0 lg:h-screen flex flex-col gap-28 align-middle items-center justify-center overflow-hidden bg-[#FFEBEC]">
       <div className="flex flex-col justify-center items-center gap-8 px-4">
         <LargeHeading className="drop-shadow-2xl text-[#231F20]">
           Featured Products
