@@ -24,9 +24,11 @@ const Hero: FC = () => {
               Elevate your events with our vibrant balloons and wide range of
               party essentials, making every moment a cherished memory
             </Paragraph>
-            <button className="mt-24 comic-button self-center text-xl md:text-2xl lg:text-2xl">
-              See our collection
-            </button>
+            <a href="#collection">
+              <button className="mt-24 comic-button self-center text-xl md:text-2xl lg:text-2xl">
+                See our collection
+              </button>
+            </a>
           </div>
         </div>
       </div>

@@ -11,30 +11,30 @@ function Navbar() {
   const [menu, setMenu] = useState(false);
   return (
     <>
-      <div className="p-5 flex flex-row w-full">
+      <div className="p-5 flex flex-col w-full">
+        <div className="flex flex-row gap-4 justify-end">
+          <Image
+            src="/search.svg"
+            alt="search"
+            width={20}
+            height={30}
+            className="object-contain cursor-pointer"
+          />
+          <Image
+            src="/menu.svg"
+            alt="menu"
+            width={20}
+            height={30}
+            className="object-contain cursor-pointer lg:hidden"
+            onClick={() => {
+              setMenu(!menu);
+            }}
+          />
+        </div>
         <div className="flex-grow flex justify-center items-center">
           <Image src="/Circular Logo.svg" alt="Logo" width={100} height={100} />
         </div>
         <div className="relative">
-          <div className="flex flex-row gap-4">
-            <Image
-              src="/search.svg"
-              alt="search"
-              width={20}
-              height={30}
-              className="object-contain cursor-pointer"
-            />
-            <Image
-              src="/menu.svg"
-              alt="menu"
-              width={20}
-              height={30}
-              className="object-contain cursor-pointer lg:hidden"
-              onClick={() => {
-                setMenu(!menu);
-              }}
-            />
-          </div>
           {menu && (
             <motion.div
               className="navbar"

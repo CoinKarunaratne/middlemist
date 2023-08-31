@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -117,6 +121,7 @@ body {
   border-radius: 0.25rem;
   box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1);
   opacity: 1;
+  z-index: 2;
 }
 
 .dropdown:hover .dropdown-menu {
