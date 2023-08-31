@@ -15,7 +15,7 @@ const Hero: FC = () => {
           <div className="h-full gap-6 flex flex-col justify-center items-center">
             <LargeHeading
               size="lg"
-              className="three-d text-[#FF776B] dark:text-light-gold self-center"
+              className="three-d text-[#FF776B] self-center"
             >
               Middlemist Events
             </LargeHeading>

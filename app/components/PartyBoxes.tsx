@@ -1,35 +1,58 @@
-import { FC } from "react";
+"use client";
+
+import { FC, useState } from "react";
 import { PartyBox } from "../constants/index";
+import LargeHeading from "./ui/LargeHeading";
+import Paragraph from "./ui/Paragraph";
+import Image from "next/image";
 
 const PartyBoxes: FC = ({}) => {
+  const [showAll, setShowAll] = useState(false);
+
+  const visiblePartyBoxes = showAll ? PartyBox : PartyBox.slice(0, 3);
+
   return (
-    <>
-      <h1 className="text-black text-2xl w-full underline text-center mt-5">
-        PARTY BOXES
-      </h1>
-      <p className="w-full text-center px-10 mt-4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolor
-        deleniti nostrum perferendis modi exercitationem possimus dolores
-        maiores inventore autem, doloremque porro eveniet, odit quaerat amet,
-        voluptatem velit et eos?
-      </p>
-      <div className="grid grid-flow-col  grid-rows-2 w-full p-8 gap-4">
-        {PartyBox.map((data, index) => (
+    <div className="h-auto flex flex-col gap-16 align-middle items-center justify-center bg-[#CFEEF0] pt-24">
+      <div className="flex flex-col justify-center items-center gap-8 px-4">
+        <LargeHeading className="drop-shadow-2xl text-[#231F20]">
+          Party Boxes
+        </LargeHeading>
+        <Paragraph size="sm" className=" text-slate-600 text-center">
+          Each box is a treasure trove of carefully curated party items,
+          ensuring your events theme is flawlessly executed. From whimsical to
+          elegant, our Party Boxes make party planning a breeze, delivering all
+          you need in one enchanting package
+        </Paragraph>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full p-8 gap-4 container justify-items-center">
+        {visiblePartyBoxes.map((data, index) => (
           <div
             key={index}
-            className="bg-[url('/boxes.jpg')] h-80 flex justify-center items-center text-black font-bold text-2xl"
+            className={`relative overflow-hidden w-80 md:w-auto cursor-pointer`}
           >
-            <p>{data.name}</p>
+            <Image
+              width={1000}
+              height={1000}
+              className="object-cover rounded-[25px]"
+              src={`/partyBoxes/${data.name}.png`}
+              alt={data.name}
+            />
           </div>
         ))}
       </div>
-      <div className="w-full flex justify-center">
-        {" "}
-        <button className="text-xl border-2 border-black text-center h-14 w-72">
-          Show More
-        </button>
+
+      <div className="flex align-middle justify-center mb-12">
+        {!showAll && (
+          <button
+            className="show-more text-slate-500"
+            onClick={() => setShowAll(true)}
+          >
+            {" "}
+            Show More
+          </button>
+        )}
       </div>
-    </>
+    </div>
   );
 };
 

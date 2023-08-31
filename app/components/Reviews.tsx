@@ -3,6 +3,8 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { reviews } from "../constants";
+import LargeHeading from "./ui/LargeHeading";
+import Paragraph from "./ui/Paragraph";
 
 export default function Reviews() {
   const responsive = {
@@ -15,33 +17,57 @@ export default function Reviews() {
       items: 3,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1024, min: 762 },
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 762, min: 0 },
       items: 1,
     },
   };
   return (
-    <div className="sm:px-[100px] py-[50px] text-black">
-      <h1 className="text-center my-8 font-bold text-4xl">Reviews</h1>
-      <Carousel
-        responsive={responsive}
-        swipeable={true}
-        infinite={true}
-        autoPlay={true}
-        autoPlaySpeed={3000}
-      >
-        {reviews.map((review, array) => {
-          return (
-            <div key={array} className="p-8 text-black w-50">
-              <p className="text-lg text-black">{review.description}</p>
-              <p className="text-right text-lg text-black">{review.name}</p>
-            </div>
-          );
-        })}
-      </Carousel>
+    <div className="flex justify-center h-auto">
+      <div className="container h-auto flex flex-col gap-24 py-48 px-4">
+        <div className="flex flex-col justify-center items-center gap-8 px-4">
+          <LargeHeading className="drop-shadow-2xl text-[#231F20]">
+            Reviews
+          </LargeHeading>
+          <Paragraph size="sm" className=" text-slate-600 text-center">
+            Each box is a treasure trove of carefully curated party items,
+            ensuring your events theme is flawlessly executed. From whimsical to
+            elegant, our Party Boxes make party planning a breeze, delivering
+            all you need in one enchanting package
+          </Paragraph>
+        </div>
+        <div className="glass flex justify-center p-12 lg:p-16 xl:p-32">
+          <Carousel
+            responsive={responsive}
+            swipeable={true}
+            infinite={true}
+            autoPlay={true}
+            autoPlaySpeed={3000}
+            className="w-full"
+          >
+            {reviews.map((review, array) => {
+              return (
+                <div
+                  key={array}
+                  className="p-8 glass-card mx-2 h-52 xl:h-80 flex justify-center items-center flex-col"
+                >
+                  <div>
+                    <p className="text-base text-[#231F20]">
+                      {review.description}
+                    </p>
+                    <p className="text-right text-base text-[#231F20]">
+                      {review.name}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
+          </Carousel>
+        </div>
+      </div>
     </div>
   );
 }

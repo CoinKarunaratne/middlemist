@@ -3,6 +3,33 @@ type MenuItem = {
   dropdownItems?: (string | { name: string; dropdownItems: string[] })[];
 };
 
+export const CarouselItems = [
+  {
+    title: "New",
+    content:
+      "Discover the freshest additions to our collection, designed to infuse your parties with the latest trends and must-have essentials",
+    background: "background-3",
+  },
+  {
+    title: "Party Supplies",
+    content:
+      "From tableware to decorations, our comprehensive range of party supplies ensures you have everything you need to create unforgettable gatherings.",
+    background: "background-3",
+  },
+  {
+    title: "DIY Balloons",
+    content:
+      "Unleash your creativity with our DIY balloon kits, perfect for adding a personalized touch to your events. Elevate your balloon game with ease!",
+    background: "background-3",
+  },
+  {
+    title: "Balloon Styling",
+    content:
+      "Elevate your celebrations with professional balloon styling services. Our experts will transform your venue into a stunning masterpiece of color and elegance, setting the stage for unforgettable moments.",
+    background: "background-3",
+  },
+];
+
 export const MenuItems: MenuItem[] = [
   { name: "NEW" },
   {
@@ -1524,12 +1551,12 @@ export const Items = [
 ];
 
 export const PartyBox = [
-  { name: "BOW WOW" },
-  { name: "UNDER THE SEA" },
-  { name: "BABY IN BLOOM" },
-  { name: "BORTANICAL BABY" },
-  { name: "JUNGLE ANIMAL" },
-  { name: "CONSTRUCTION" },
+  { name: "Ballet" },
+  { name: "Circus" },
+  { name: "Wheels" },
+  { name: "Blocks" },
+  { name: "Ice cream" },
+  // { name: "Butterfly" },
 ];
 
 export const reviews = [
