@@ -10,7 +10,7 @@ const Hero: FC = () => {
   return (
     <main className="relative h-auto xl:h-screen flex flex-col items-center justify-center">
       <Navbar />
-      <div className="pt-32 w-full mx-auto h-full bg-cover bg-[url('/background-3.jpg')]">
+      <div className="pt-32 pb-32 xl:pb-0 w-full mx-auto h-full bg-cover bg-[url('/background-3.jpg')]">
         <div className="container max-w-7xl w-full mx-auto h-full">
           <div className="h-full gap-6 flex flex-col justify-center items-center pb-20 sm:pb-0">
             <LargeHeading
