@@ -8,7 +8,7 @@ import Navbar from "./ui/Navbar";
 
 const Hero: FC = () => {
   return (
-    <main className="relative h-auto xl:h-screen flex flex-col items-center justify-center overflow-x-hidden">
+    <main className="relative h-auto xl:h-screen flex flex-col items-center justify-center">
       <Navbar />
       <div className="pt-32 w-full mx-auto h-full bg-cover bg-[url('/background-3.jpg')]">
         <div className="container max-w-7xl w-full mx-auto h-full">
