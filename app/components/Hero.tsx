@@ -11,11 +11,14 @@ const Hero: FC = () => {
   return (
     <main className="flex flex-col items-center justify-center mb-10">
       <Navbar />
-      <div className="xl:pb-0 w-[90vw] bg-no-repeat mx-auto bg-image bg-[url('/background-3.jpg')]">
+      <div className="xl:pb-0 w-[90vw] bg-no-repeat mx-auto bg-image bg-[url('/background-3.jpg')] relative">
         <img src="/background-3.jpg" alt="background" className="img-hidden" />
 
-        <a href="#collection" className="mb-20 absolute left-[40vw] top-[60vh]">
-          <button className="mt-24 comic-button self-center text-xl md:text-2xl lg:text-2xl xl:w-[15vw]">
+        <a
+          href="#collection"
+          className="mb-20 hidden xl:inline absolute left-[35vw] bottom-0"
+        >
+          <button className="mt-24 comic-button self-center xl:w-[20vw]">
             See our collection
           </button>
         </a>
