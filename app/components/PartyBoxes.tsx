@@ -12,7 +12,7 @@ const PartyBoxes: FC = ({}) => {
   const visiblePartyBoxes = showAll ? PartyBox : PartyBox.slice(0, 3);
 
   return (
-    <div className="h-auto flex flex-col gap-16 align-middle items-center justify-center bg-[#CFEEF0] pt-24">
+    <div className="h-auto flex flex-col gap-16 align-middle items-center justify-center bg-[#FFEBEC] pt-24">
       <div className="flex flex-col justify-center items-center gap-8 px-4">
         <LargeHeading className="drop-shadow-2xl text-[#231F20]">
           Party Boxes
@@ -24,11 +24,11 @@ const PartyBoxes: FC = ({}) => {
           you need in one enchanting package
         </Paragraph>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full p-8 gap-4 container justify-items-center">
+      <div className="grid grid-cols-2 lg:grid-cols-3 w-full p-8 gap-4 container justify-items-center">
         {visiblePartyBoxes.map((data, index) => (
           <div
             key={index}
-            className={`relative overflow-hidden w-80 md:w-auto cursor-pointer`}
+            className={`relative overflow-hidden w-60 md:w-auto cursor-pointer`}
           >
             <Image
               width={1000}

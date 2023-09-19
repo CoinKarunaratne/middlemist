@@ -3,42 +3,42 @@ type MenuItem = {
   dropdownItems?: (string | { name: string; dropdownItems: string[] })[];
 };
 
-export const CarouselItems = [
-  {
-    title: "New",
-    content:
-      "Discover the freshest additions to our collection, designed to infuse your parties with the latest trends and must-have essentials",
-    background: "background-3",
-  },
+export const Featured = [
   {
     title: "Party Supplies",
     content:
       "From tableware to decorations, our comprehensive range of party supplies ensures you have everything you need to create unforgettable gatherings.",
-    background: "background-3",
+    background: "party-supplies.jpg",
+  },
+  {
+    title: "Cake Topper",
+    content:
+      "Discover the freshest additions to our collection, designed to infuse your parties with the latest trends and must-have essentials",
+    background: "cake-topper.jpg",
   },
   {
     title: "DIY Balloons",
     content:
       "Unleash your creativity with our DIY balloon kits, perfect for adding a personalized touch to your events. Elevate your balloon game with ease!",
-    background: "background-3",
+    background: "DIY-Balloons.png",
   },
   {
-    title: "Balloon Styling",
+    title: "Party Styling",
     content:
       "Elevate your celebrations with professional balloon styling services. Our experts will transform your venue into a stunning masterpiece of color and elegance, setting the stage for unforgettable moments.",
-    background: "background-3",
+    background: "party-styling.jpg",
   },
 ];
 
 export const MenuItems: MenuItem[] = [
   { name: "NEW" },
   {
-    name: "PARTY SUPPLIES",
-    dropdownItems: ["Plates", "Cups", "Napkins", "Straws"],
-  },
-  {
     name: "BALLOONS",
     dropdownItems: ["DIY Balloons", "Foil Balloons", "Balloon Styling"],
+  },
+  {
+    name: "PARTY SUPPLIES",
+    dropdownItems: ["Plates", "Cups", "Napkins", "Straws"],
   },
   { name: "PARTY BOXES" },
   {
