@@ -26,7 +26,7 @@ export default function Reviews() {
     },
   };
   return (
-    <div className="flex justify-center h-auto">
+    <div className="flex justify-center h-auto bg-[#FFEBEC]">
       <div className="container h-auto flex flex-col gap-24 py-48 px-4">
         <div className="flex flex-col justify-center items-center gap-8 px-4">
           <LargeHeading className="drop-shadow-2xl text-[#231F20]">

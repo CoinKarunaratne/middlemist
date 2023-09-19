@@ -72,35 +72,60 @@ function Navbar() {
               {content.name}
             </Link>
             {content.dropdownItems && (
-              <div className="dropdown-menu flex flex-col gap-4 w-56 items-center">
-                {content.dropdownItems.map((item, index) => {
-                  if (typeof item === "string") {
-                    return (
-                      <div
-                        key={index}
-                        className="cursor-pointer w-full text-center hover:bg-slate-400 rounded hover:text-white transition duration-300 ease-in-out"
-                      >
-                        {item}
-                      </div>
-                    );
-                  } else {
-                    return (
-                      <div key={index} className="flex flex-col w-full gap-4">
-                        <h1 className="font-bold text-left">{item.name}</h1>
-                        <ul className="flex flex-col gap-2">
-                          {item.dropdownItems.map((item, index) => (
-                            <li
-                              key={index}
-                              className="text-sm ml-2 cursor-pointer hover:opacity-50"
-                            >
-                              {item}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    );
-                  }
-                })}
+              <div className="dropdown-menu flex flex-col gap-4 w-56 items-center text-left">
+                {content.dropdownItems
+                  .slice() // Create a shallow copy of the dropdownItems array
+                  .sort((a, b) => {
+                    if (typeof a === "string" && typeof b === "string") {
+                      return a.localeCompare(b); // Sort strings alphabetically
+                    }
+                    if (typeof a === "object" && typeof b === "object") {
+                      return a.name.localeCompare(b.name); // Sort objects by the 'name' property
+                    }
+                    return 0; // Default case (e.g., if the elements are not strings or objects)
+                  })
+                  .map((item, index) => {
+                    if (typeof item === "string") {
+                      return (
+                        <div
+                          key={index}
+                          className="cursor-pointer w-full text-left p-1 hover:bg-slate-400 rounded hover:text-white transition duration-300 ease-in-out"
+                        >
+                          {item}
+                        </div>
+                      );
+                    } else {
+                      return (
+                        <div
+                          key={index}
+                          className="flex flex-col w-full gap-4 text-left"
+                        >
+                          <h1 className="font-bold text-left">{item.name}</h1>
+                          <ul className="flex flex-col gap-2">
+                            {item.dropdownItems
+                              .slice() // Create a shallow copy of the dropdownItems array
+                              .sort((a, b) => {
+                                if (
+                                  typeof a === "string" &&
+                                  typeof b === "string"
+                                ) {
+                                  return a.localeCompare(b); // Sort strings alphabetically
+                                }
+                                return 0; // Default case (e.g., if the elements are not strings)
+                              })
+                              .map((subItem, subIndex) => (
+                                <li
+                                  key={subIndex}
+                                  className="text-sm ml-2 cursor-pointer hover:opacity-50"
+                                >
+                                  {subItem}
+                                </li>
+                              ))}
+                          </ul>
+                        </div>
+                      );
+                    }
+                  })}
               </div>
             )}
           </div>
