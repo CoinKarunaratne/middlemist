@@ -113,7 +113,7 @@ const Tiles = () => {
         <div className="col-span-3 row-span-1">
           {" "}
           <div
-            className={`flex flex-col bg-[url('/party-supplies.jpg')] items-center justify-center h-full bg-cover bg-center`}
+            className={`flex flex-col bg-[url('/party-supplies.jpg')] items-center justify-center h-full bg-cover bg-top`}
           >
             <LargeHeading className="mb-5 drop-shadow-2xl text-[#231f20] three-d-tiles">
               {Featured[0].title}
