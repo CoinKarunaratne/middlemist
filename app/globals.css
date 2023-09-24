@@ -167,34 +167,7 @@ body {
 }
 
 .three-d-tiles {
-  text-shadow: 0px 5px 0px #e6e6e6;
-}
-
-.comic-button {
-  display: inline-block;
-  padding: 12px 15px;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
-  background-color: #000;
-  border: 2px solid #000;
-  border-radius: 10px;
-  transition: all 0.3s ease;
-}
-
-.comic-button:hover {
-  background-color: #fff;
-  color: #000;
-  border: 2px solid #000;
-  box-shadow: 5px 5px 0px #000;
-}
-
-.comic-button:active {
-  background-color: #fcf414;
-  box-shadow: none;
-  transform: translateY(4px);
+  text-shadow: 0px 5px 0px #9d9fa2;
 }
 
 /* Tile-Button */
@@ -282,7 +255,7 @@ body {
 }
 
 .glass {
-  background: #bbbcfd;
+  background: #e6e6e6;
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(5px);
@@ -343,4 +316,28 @@ body {
 
 .img-hidden {
   visibility: hidden;
+}
+
+.card-zoom {
+  @apply relative flex items-center justify-center overflow-hidden shadow-xl w-full h-full;
+}
+
+.card-zoom-image {
+  @apply absolute w-full h-full transition-all duration-500 ease-in-out transform bg-center bg-cover;
+}
+
+.card-zoom-image-party-supplies {
+  @apply absolute w-full h-full transition-all duration-500 ease-in-out transform bg-top bg-cover;
+}
+
+.card-zoom-text {
+  @apply absolute transition-all duration-500 ease-in-out transform text-[#231f20] three-d-tiles;
+}
+
+.card-zoom:hover .card-zoom-image {
+  @apply scale-125;
+}
+
+.card-zoom:hover .card-zoom-image-party-supplies {
+  @apply scale-125;
 }
