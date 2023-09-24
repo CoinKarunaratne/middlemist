@@ -29,7 +29,7 @@ const Tiles = () => {
           ></div>
           <h1
             style={{ textAlign: "center" }}
-            className="mb-5 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-3xl"
+            className="mb-5 card-zoom-text text-[#231f20] text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl"
           >
             Party <br /> Supplies
           </h1>
@@ -39,7 +39,7 @@ const Tiles = () => {
           <div className={`bg-[url('/cake-topper.jpg')] card-zoom-image`}></div>
           <h1
             style={{ textAlign: "center" }}
-            className="mb-5 top-20 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-3xl"
+            className="mb-5 top-20 card-zoom-text drop-shadow-2xl text-[#231f20] text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl"
           >
             Cake <br /> Topper
           </h1>
@@ -51,7 +51,7 @@ const Tiles = () => {
           ></div>
           <h1
             style={{ textAlign: "center" }}
-            className="mb-5 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-3xl"
+            className="mb-5 card-zoom-text drop-shadow-2xl text-[#231f20] text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl"
           >
             DIY <br /> Balloons
           </h1>
@@ -63,7 +63,7 @@ const Tiles = () => {
           ></div>
           <h1
             style={{ textAlign: "center" }}
-            className="mb-5 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-3xl"
+            className="mb-5 card-zoom-text drop-shadow-2xl text-[#231f20] text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl"
           >
             Party <br /> Styling
           </h1>
@@ -76,12 +76,12 @@ const Tiles = () => {
           <div
             className={`flex flex-col bg-[url('/cake-topper.jpg')] items-center justify-center h-full bg-center bg-cover`}
           >
-            <LargeHeading
-              size="sm"
-              className="mb-5 drop-shadow-2xl text-[#231f20] three-d-tiles"
+            <h1
+              style={{ textAlign: "center" }}
+              className="mb-5 card-zoom-text text-[#231f20] text-center lg:text-left font-extrabold leading-tight tracking-tighter text-xl"
             >
-              {Featured[1].title}
-            </LargeHeading>
+              Cake <br /> Topper
+            </h1>
           </div>
         </div>
         <div className="col-span-1">
@@ -89,12 +89,12 @@ const Tiles = () => {
           <div
             className={`flex flex-col bg-[url('/DIY-Balloons.png')] items-center justify-center h-full bg-center bg-cover`}
           >
-            <LargeHeading
-              size="sm"
-              className="mb-5 drop-shadow-2xl text-[#231f20] three-d-tiles"
+            <h1
+              style={{ textAlign: "center" }}
+              className="mb-5 card-zoom-text text-[#231f20] text-center lg:text-left font-extrabold leading-tight tracking-tighter text-xl"
             >
-              {Featured[2].title}
-            </LargeHeading>
+              DIY <br /> Balloons
+            </h1>
           </div>
         </div>
         <div className="col-span-1">
@@ -102,12 +102,12 @@ const Tiles = () => {
           <div
             className={`flex flex-col bg-[url('/party-styling.jpg')] items-center justify-center h-full bg-center bg-cover`}
           >
-            <LargeHeading
-              size="sm"
-              className="mb-5 drop-shadow-2xl text-[#231f20] three-d-tiles"
+            <h1
+              style={{ textAlign: "center" }}
+              className="mb-5 card-zoom-text text-[#231f20] text-center lg:text-left font-extrabold leading-tight tracking-tighter text-xl"
             >
-              {Featured[3].title}
-            </LargeHeading>
+              Party <br /> Styling
+            </h1>
           </div>
         </div>
         <div className="col-span-3 row-span-1">
@@ -115,9 +115,12 @@ const Tiles = () => {
           <div
             className={`flex flex-col bg-[url('/party-supplies.jpg')] items-center justify-center h-full bg-cover bg-top`}
           >
-            <LargeHeading className="mb-5 drop-shadow-2xl text-[#231f20] three-d-tiles">
-              {Featured[0].title}
-            </LargeHeading>
+            <h1
+              style={{ textAlign: "center" }}
+              className="mb-5 card-zoom-text text-[#231f20] text-center lg:text-left font-extrabold leading-tight tracking-tighter text-xl"
+            >
+              Party <br /> Supplies
+            </h1>
           </div>
         </div>
       </div>
