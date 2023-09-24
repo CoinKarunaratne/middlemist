@@ -72,7 +72,7 @@ function Navbar() {
               {content.name}
             </Link>
             {content.dropdownItems && (
-              <div className="dropdown-menu flex flex-col gap-4 w-56 items-center text-left">
+              <div className="dropdown-menu z-10 flex flex-col gap-4 w-56 items-center text-left">
                 {content.dropdownItems
                   .slice() // Create a shallow copy of the dropdownItems array
                   .sort((a, b) => {

@@ -20,71 +20,53 @@ const Tiles = () => {
         </Paragraph>
       </div>
       <div
-        className={`hidden md:grid grid-cols-6 grid-rows-2 gap-4 w-full h-[80vw] xl:h-[50vw] px-20`}
+        className={`hidden md:grid grid-cols-6 grid-rows-2 gap-4 w-full h-[80vw] xl:h-[50vw] px-5 lg:px-10 xl:px-20`}
       >
-        <div className="sm:col-span-4">
+        <div className="sm:col-span-4 card-zoom">
           {" "}
           <div
-            className={`flex flex-col bg-[url('/party-supplies.jpg')] items-center justify-center h-full bg-cover bg-center zoom-on-hover px-10`}
+            className={`bg-[url('/party-supplies.jpg')] card-zoom-image-party-supplies`}
+          ></div>
+          <h1
+            style={{ textAlign: "center" }}
+            className="mb-5 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-5xl"
           >
-            <LargeHeading className="mb-5 drop-shadow-2xl text-base text-[#9D9FA2] three-d-tiles">
-              {Featured[0].title}
-            </LargeHeading>
-            <Paragraph
-              size="sm"
-              className="hidden lg:inline-block text-slate-700"
-            >
-              {Featured[0].content}
-            </Paragraph>
-          </div>
+            Party <br /> Supplies
+          </h1>
         </div>
-        <div className="sm:col-span-2 sm:row-span-2">
+        <div className="sm:col-span-2 sm:row-span-2 card-zoom">
           {" "}
-          <div
-            className={`flex flex-col bg-[url('/cake-topper.jpg')] px-10 items-center justify-center h-full bg-center bg-cover zoom-on-hover`}
+          <div className={`bg-[url('/cake-topper.jpg')] card-zoom-image`}></div>
+          <h1
+            style={{ textAlign: "center" }}
+            className="mb-5 top-20 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-5xl"
           >
-            <LargeHeading className="mb-5 drop-shadow-2xl text-[#9D9FA2] three-d-tiles">
-              {Featured[1].title}
-            </LargeHeading>
-            <Paragraph
-              size="sm"
-              className="hidden lg:inline-block text-slate-700"
-            >
-              {Featured[1].content}
-            </Paragraph>
-          </div>
+            Cake <br /> Topper
+          </h1>
         </div>
-        <div className="sm:col-span-2 sm:row-span-1">
+        <div className="sm:col-span-2 sm:row-span-1 card-zoom">
           {" "}
           <div
-            className={`flex flex-col bg-[url('/DIY-Balloons.png')] px-10 items-center justify-center h-full bg-center bg-cover zoom-on-hover`}
+            className={`bg-[url('/DIY-Balloons.png')] card-zoom-image`}
+          ></div>
+          <h1
+            style={{ textAlign: "center" }}
+            className="mb-5 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-5xl"
           >
-            <LargeHeading className="mb-5 drop-shadow-2xl text-[#9D9FA2] three-d-tiles">
-              {Featured[2].title}
-            </LargeHeading>
-            <Paragraph
-              size="sm"
-              className="hidden lg:inline-block text-slate-700"
-            >
-              {Featured[2].content}
-            </Paragraph>
-          </div>
+            DIY <br /> Balloons
+          </h1>
         </div>
-        <div className="sm:col-span-2 sm:row-span-1">
+        <div className="sm:col-span-2 sm:row-span-1 card-zoom">
           {" "}
           <div
-            className={`flex flex-col bg-[url('/party-styling.jpg')] px-10 items-center justify-center h-full bg-center bg-cover zoom-on-hover`}
+            className={`bg-[url('/party-styling.jpg')] card-zoom-image`}
+          ></div>
+          <h1
+            style={{ textAlign: "center" }}
+            className="mb-5 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-5xl"
           >
-            <LargeHeading className="mb-5 drop-shadow-2xl text-[#9D9FA2] three-d-tiles">
-              {Featured[3].title}
-            </LargeHeading>
-            <Paragraph
-              size="sm"
-              className="hidden lg:inline-block text-slate-700"
-            >
-              {Featured[3].content}
-            </Paragraph>
-          </div>
+            Party <br /> Styling
+          </h1>
         </div>
       </div>
       {/* mobile */}
@@ -92,11 +74,11 @@ const Tiles = () => {
         <div className="col-span-1">
           {" "}
           <div
-            className={`flex flex-col bg-[url('/cake-topper.jpg')] items-center justify-center h-full bg-center bg-cover zoom-on-hover`}
+            className={`flex flex-col bg-[url('/cake-topper.jpg')] items-center justify-center h-full bg-center bg-cover`}
           >
             <LargeHeading
               size="sm"
-              className="mb-5 drop-shadow-2xl text-[#9D9FA2] three-d-tiles"
+              className="mb-5 drop-shadow-2xl text-[#231f20] three-d-tiles"
             >
               {Featured[1].title}
             </LargeHeading>
@@ -105,11 +87,11 @@ const Tiles = () => {
         <div className="col-span-1">
           {" "}
           <div
-            className={`flex flex-col bg-[url('/DIY-Balloons.png')] items-center justify-center h-full bg-center bg-cover zoom-on-hover`}
+            className={`flex flex-col bg-[url('/DIY-Balloons.png')] items-center justify-center h-full bg-center bg-cover`}
           >
             <LargeHeading
               size="sm"
-              className="mb-5 drop-shadow-2xl text-[#9D9FA2] three-d-tiles"
+              className="mb-5 drop-shadow-2xl text-[#231f20] three-d-tiles"
             >
               {Featured[2].title}
             </LargeHeading>
@@ -118,11 +100,11 @@ const Tiles = () => {
         <div className="col-span-1">
           {" "}
           <div
-            className={`flex flex-col bg-[url('/party-styling.jpg')] items-center justify-center h-full bg-center bg-cover zoom-on-hover`}
+            className={`flex flex-col bg-[url('/party-styling.jpg')] items-center justify-center h-full bg-center bg-cover`}
           >
             <LargeHeading
               size="sm"
-              className="mb-5 drop-shadow-2xl text-[#9D9FA2] three-d-tiles"
+              className="mb-5 drop-shadow-2xl text-[#231f20] three-d-tiles"
             >
               {Featured[3].title}
             </LargeHeading>
@@ -131,9 +113,9 @@ const Tiles = () => {
         <div className="col-span-3 row-span-1">
           {" "}
           <div
-            className={`flex flex-col bg-[url('/party-supplies.jpg')] items-center justify-center h-full bg-cover bg-center zoom-on-hover`}
+            className={`flex flex-col bg-[url('/party-supplies.jpg')] items-center justify-center h-full bg-cover bg-center`}
           >
-            <LargeHeading className="mb-5 drop-shadow-2xl text-[#9D9FA2] three-d-tiles">
+            <LargeHeading className="mb-5 drop-shadow-2xl text-[#231f20] three-d-tiles">
               {Featured[0].title}
             </LargeHeading>
           </div>

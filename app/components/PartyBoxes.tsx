@@ -28,7 +28,7 @@ const PartyBoxes: FC = ({}) => {
         {visiblePartyBoxes.map((data, index) => (
           <div
             key={index}
-            className={`relative overflow-hidden w-60 md:w-auto cursor-pointer`}
+            className={`relative overflow-hidden md:w-auto cursor-pointer`}
           >
             <Image
               width={1000}
