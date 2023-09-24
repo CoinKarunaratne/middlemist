@@ -29,7 +29,7 @@ const Tiles = () => {
           ></div>
           <h1
             style={{ textAlign: "center" }}
-            className="mb-5 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-5xl"
+            className="mb-5 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-3xl"
           >
             Party <br /> Supplies
           </h1>
@@ -39,7 +39,7 @@ const Tiles = () => {
           <div className={`bg-[url('/cake-topper.jpg')] card-zoom-image`}></div>
           <h1
             style={{ textAlign: "center" }}
-            className="mb-5 top-20 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-5xl"
+            className="mb-5 top-20 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-3xl"
           >
             Cake <br /> Topper
           </h1>
@@ -51,7 +51,7 @@ const Tiles = () => {
           ></div>
           <h1
             style={{ textAlign: "center" }}
-            className="mb-5 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-5xl"
+            className="mb-5 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-3xl"
           >
             DIY <br /> Balloons
           </h1>
@@ -63,7 +63,7 @@ const Tiles = () => {
           ></div>
           <h1
             style={{ textAlign: "center" }}
-            className="mb-5 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-5xl"
+            className="mb-5 card-zoom-text drop-shadow-2xl text-[#231f20] three-d-tiles text-center lg:text-left font-extrabold leading-tight tracking-tighter text-3xl md:text-4xl lg:text-3xl"
           >
             Party <br /> Styling
           </h1>
