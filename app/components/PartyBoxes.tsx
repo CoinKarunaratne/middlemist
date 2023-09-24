@@ -41,8 +41,8 @@ const PartyBoxes: FC = ({}) => {
         ))}
       </div>
 
-      <div className="flex align-middle justify-center mb-12">
-        {!showAll && (
+      {!showAll && (
+        <div className="flex align-middle justify-center mb-12">
           <button
             className="show-more text-slate-500"
             onClick={() => setShowAll(true)}
@@ -50,8 +50,8 @@ const PartyBoxes: FC = ({}) => {
             {" "}
             Show More
           </button>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 };
