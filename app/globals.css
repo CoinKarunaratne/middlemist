@@ -331,7 +331,7 @@ body {
 }
 
 .card-zoom-text {
-  @apply absolute transition-all duration-500 ease-in-out transform text-[#231f20];
+  @apply absolute transition-all duration-500 ease-in-out transform text-slate-500;
 }
 
 .card-zoom:hover .card-zoom-image {
