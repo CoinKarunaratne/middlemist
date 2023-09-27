@@ -68,9 +68,16 @@ function Navbar() {
       <nav className="lg:flex flex-row gap-8 my-5 justify-center hidden">
         {MenuItems.map((content, position) => (
           <div className="dropdown" key={position}>
-            <Link href={`/${content.name}`} className="link font-semibold">
-              {content.name}
-            </Link>
+            {content.name === "PARTY BOXES" ? (
+              <Link href={"#party-boxes"} className="link font-semibold">
+                {content.name}
+              </Link>
+            ) : (
+              <Link href={`/${content.name}`} className="link font-semibold">
+                {content.name}
+              </Link>
+            )}
+
             {content.dropdownItems && (
               <div className="dropdown-menu z-10 flex flex-col gap-4 w-56 items-center text-left">
                 {content.dropdownItems
