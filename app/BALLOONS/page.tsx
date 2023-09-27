@@ -32,12 +32,12 @@ export default function Home() {
                 height={1000}
                 className="object-cover aspect-square"
                 src={`/Balloons/DIY-Balloons.png`}
-                alt={data}
+                alt={data as string}
               />
               <div className="flex flex-col gap-10 mt-10">
                 <div className="self-center">
                   <h1 className=" text-4xl text-center lg:text-left font-extrabold leading-tight tracking-tighter">
-                    {data}
+                    {data as string}
                   </h1>
                   <h1 className="text-center">100 products</h1>
                 </div>
