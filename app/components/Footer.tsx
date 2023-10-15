@@ -10,10 +10,10 @@ const Footer: FC = ({}) => {
             <h1 className="mb-5 font-bold text-xl">Quick Links</h1>
 
             <div className="flex flex-col gap-1">
-              <a className=" cursor-pointer">About</a>
-              <a className=" cursor-pointer">Contact Us</a>
-              <a className=" cursor-pointer">Shipping Policy</a>
-              <a className=" cursor-pointer">Terms & Conditions</a>
+              <a className=" cursor-pointer text-base">About</a>
+              <a className=" cursor-pointer text-base">Contact Us</a>
+              <a className=" cursor-pointer text-base">Shipping Policy</a>
+              <a className=" cursor-pointer text-base">Terms & Conditions</a>
             </div>
           </div>
 
