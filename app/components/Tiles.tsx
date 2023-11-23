@@ -74,39 +74,39 @@ const Tiles = () => {
         <div className="col-span-1">
           {" "}
           <div
-            className={`flex flex-col bg-[url('/cake-topper.jpg')] items-center justify-center h-full bg-center bg-cover`}
+            className={`flex flex-col bg-[url('/cake-topper.jpg')] items-center justify-center h-full bg-center bg-cover relative`}
           >
             <h1
               style={{ textAlign: "center" }}
-              className="mb-5 card-zoom-text text-slate-500 text-center lg:text-left font-extrabold leading-tight tracking-tighter text-xl"
+              className="mb-5 absolute top-10 card-zoom-text text-slate-500 text-center lg:text-left font-extrabold leading-tight tracking-tighter text-lg"
             >
-              Cake <br /> Topper
+              Cake Topper
             </h1>
           </div>
         </div>
         <div className="col-span-1">
           {" "}
           <div
-            className={`flex flex-col bg-[url('/DIY-Balloons.png')] items-center justify-center h-full bg-center bg-cover`}
+            className={`flex flex-col bg-[url('/DIY-Balloons.png')] items-center justify-center h-full bg-center bg-cover relative`}
           >
             <h1
               style={{ textAlign: "center" }}
-              className="mb-5 card-zoom-text text-[#231f20] text-center lg:text-left font-extrabold leading-tight tracking-tighter text-xl"
+              className="mb-5 absolute top-10 card-zoom-text text-[#231f20] text-center lg:text-left font-extrabold leading-tight tracking-tighter text-lg"
             >
-              DIY <br /> Balloons
+              DIY Balloons
             </h1>
           </div>
         </div>
         <div className="col-span-1">
           {" "}
           <div
-            className={`flex flex-col bg-[url('/party-styling.jpg')] items-center justify-center h-full bg-center bg-cover`}
+            className={`flex flex-col bg-[url('/party-styling.jpg')] items-center justify-center h-full bg-center bg-cover relative`}
           >
             <h1
               style={{ textAlign: "center" }}
-              className="mb-5 card-zoom-text text-[#231f20] text-center lg:text-left font-extrabold leading-tight tracking-tighter text-xl"
+              className="mb-5 absolute top-10 card-zoom-text text-[#231f20] text-center lg:text-left font-extrabold leading-tight tracking-tighter text-lg"
             >
-              Party <br /> Styling
+              Party Styling
             </h1>
           </div>
         </div>
@@ -119,7 +119,7 @@ const Tiles = () => {
               style={{ textAlign: "center" }}
               className="mb-5 card-zoom-text text-[#231f20] text-center lg:text-left font-extrabold leading-tight tracking-tighter text-xl"
             >
-              Party <br /> Supplies
+              Party Supplies
             </h1>
           </div>
         </div>
