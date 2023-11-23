@@ -72,6 +72,10 @@ function Navbar() {
               <Link href={"#party-boxes"} className="link font-semibold">
                 {content.name}
               </Link>
+            ) : content.name === "PARTY SUPPLIES" ? (
+              <Link href={`/PARTY_SUPPLIES`} className="link font-semibold">
+                {content.name}
+              </Link>
             ) : (
               <Link href={`/${content.name}`} className="link font-semibold">
                 {content.name}

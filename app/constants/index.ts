@@ -34,7 +34,7 @@ export const MenuItems: MenuItem[] = [
   { name: "NEW" },
   {
     name: "BALLOONS",
-    dropdownItems: ["DIY Balloons", "Foil Balloons", "Party Styling"],
+    dropdownItems: ["DIY Balloons", "Foil Balloons", "Balloon Styling"],
   },
   {
     name: "PARTY SUPPLIES",
