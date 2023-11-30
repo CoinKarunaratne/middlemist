@@ -48,7 +48,7 @@ export default function Home() {
               <Link
                 href={`/PARTY_SUPPLIES/${transformedString as URL}`}
                 key={index}
-                className={`relative overflow-hidden md:w-auto cursor-pointer mb-10`}
+                className={`relative overflow-hidden md:w-auto cursor-pointer mb-10 transform duration-500 hover:-translate-y-2 bg-white pb-8 rounded-xl`}
               >
                 <Image
                   width={1000}
@@ -65,7 +65,7 @@ export default function Home() {
                     <h1 className="text-center text-[#231F20]">100 products</h1>
                   </div>
 
-                  <p className="text-slate-600 text-sm text-center h-24">
+                  <p className="text-slate-600 text-sm text-center h-36 px-5">
                     {description}
                   </p>
                   <button className="shop-now-button w-[80%] self-center">
