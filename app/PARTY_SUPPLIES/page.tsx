@@ -54,7 +54,7 @@ export default function Home() {
                   width={1000}
                   height={1000}
                   className="object-cover aspect-square"
-                  src={`/PARTY_SUPPLIES/Cups.jpg`}
+                  src={`/PARTY_SUPPLIES/${data}.jpg`}
                   alt={data as string}
                 />
                 <div className="flex flex-col gap-10 mt-10">

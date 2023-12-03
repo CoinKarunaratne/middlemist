@@ -43,7 +43,7 @@ export default function Home() {
               <Link
                 href={`/BALLOONS/${transformedString as URL}`}
                 key={index}
-                className={`relative overflow-hidden md:w-auto cursor-pointer mb-10`}
+                className={`relative overflow-hidden md:w-auto cursor-pointer mb-10 transform duration-500 hover:-translate-y-2 bg-white pb-8 rounded-xl`}
               >
                 <Image
                   width={1000}

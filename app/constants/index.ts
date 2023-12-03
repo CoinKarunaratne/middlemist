@@ -76,6 +76,49 @@ export const Events = [
   { name: "BABY SHOWER" },
 ];
 
+export const BalloonStyling = [
+  {
+    name: "6 Months B'Day",
+    description:
+      "Celebrate the precious half-year milestone with a delightful 6-month birthday party filled with joy, cute decorations, and sweet memories.",
+  },
+  {
+    name: "Birthday",
+    description:
+      "A classic and timeless birthday celebration that embraces the joy of growing another year older. Perfect for all ages and customizable to fit any personality or interest.",
+  },
+  {
+    name: "Boss Baby",
+    description:
+      "Bring the world of Boss Baby to life with a stylish and sophisticated theme inspired by the adorable boss in a suit. Perfect for little ones who love a touch of humor and charm.",
+  },
+  {
+    name: "Frozen",
+    description:
+      "Dive into the enchanting world of Frozen, where snowflakes glisten, and ice castles gleam. A magical theme inspired by the beloved characters Elsa, Anna, and Olaf.",
+  },
+  {
+    name: "Too Fast",
+    description:
+      "Rev up the excitement with a Cars-themed party inspired by the animated film. Perfect for little speedsters who love the world of racing and adventure.",
+  },
+  {
+    name: "Little Mermaid",
+    description:
+      "Transport guests under the sea with a Little Mermaid-themed party. Dive into a world of underwater wonders, mermaids, and ocean treasures for an unforgettable experience.",
+  },
+  {
+    name: "Mermaid",
+    description:
+      "Create a magical and mystical atmosphere with a Mermaid-themed party. Delight in sea-inspired decor, iridescent colors, and a touch of fantasy for a whimsical celebration.",
+  },
+  {
+    name: "Let's Party",
+    description:
+      "A versatile and exciting theme that's all about celebrating life and having a good time. Let your creativity shine with colorful decorations and a lively atmosphere.",
+  },
+];
+
 export const Items = [
   {
     Name: "MERMAID CAKE TOPPER",
