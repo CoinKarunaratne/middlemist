@@ -58,7 +58,7 @@ export default function Reviews() {
                     <p className="text-sm sm:text-base text-[#231F20]">
                       {review.description}
                     </p>
-                    <p className="text-right text-sm sm:text-base text-[#231F20]">
+                    <p className="text-right text-sm sm:text-base text-[#231F20] font-bold">
                       {review.name}
                     </p>
                   </div>

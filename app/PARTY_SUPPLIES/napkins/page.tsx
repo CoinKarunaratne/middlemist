@@ -43,7 +43,7 @@ export default function Home() {
                       width={1000}
                       height={1000}
                       className="object-cover aspect-square"
-                      src={`/napkins/${data.Images[0]}`}
+                      src={`/napkin/${data.Images[0]}`}
                       alt={data.Name as string}
                     />
                     <div className="px-4 py-8 w-72">

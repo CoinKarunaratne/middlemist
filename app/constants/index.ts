@@ -45,6 +45,10 @@ export const MenuItems: MenuItem[] = [
     name: "SHOP BY THEME",
     dropdownItems: [
       {
+        name: "Occassions",
+        dropdownItems: ["Bridal Shower", "Baby Shower", "Gender Reveal"],
+      },
+      {
         name: "Kids Parties",
         dropdownItems: [
           "Unicorn",
@@ -60,10 +64,6 @@ export const MenuItems: MenuItem[] = [
           "Building Blocks",
           "Ice cream",
         ],
-      },
-      {
-        name: "Occassions",
-        dropdownItems: ["Bridal Shower", "Baby Shower", "Gender Reveal"],
       },
     ],
   },
@@ -1679,28 +1679,39 @@ export const PartyBox = [
 
 export const reviews = [
   {
-    name: "Sarah J.",
+    name: "Sajith Wijewardena",
     description:
-      "Wheeldeal has made buying and selling cars so much easier. The user interface is intuitive and the process is quick and efficient.",
+      "Excellent customer service, well packed. worth money, highly recomended",
   },
   {
-    name: "Michael T.",
+    name: "Nilaksha Praneeth",
     description:
-      "I love the safety features Wheeldeal has in place to protect my personal information during transactions. It gives me peace of mind when buying or selling cars.",
+      "Excellent service done in my baby's birthday. Highly recommend",
   },
   {
-    name: "Jessica P.",
-    description:
-      "I had a great experience using Wheeldeal to sell my old car. It was so simple to list and the process was hassle-free.",
+    name: "hikemp5",
+    description: "Love them thanks",
   },
   {
-    name: "David H.",
-    description:
-      "The comparison tools on Wheeldeal are fantastic. I was able to easily compare different cars and make an informed decision on my purchase.",
+    name: "s.tahe",
+    description: "Great trader. Thank you",
   },
   {
-    name: "Rachel B.",
+    name: "tuaminator14",
+    description: "Excellent trade",
+  },
+  {
+    name: "roxanne82",
     description:
-      "I highly recommend Wheeldeal to anyone looking to buy or sell a car. It's user-friendly, efficient, and offers a safe and secure trading experience.",
+      "Wonderful retailer to purchase from. Have not used product yeat as event is not till November. But going by the pics, efficient posting and communication via email, I'm sure balloons will be perfect.",
+  },
+  {
+    name: "ceedubb",
+    description:
+      "---Item as described: 5/5, Seller communication: 5/5, Delivers on time: 5/5, Item quality: 5/5",
+  },
+  {
+    name: "joshua549",
+    description: "Great trader",
   },
 ];

@@ -13,37 +13,36 @@ export default function Home() {
       <div className="h-auto flex flex-col gap-16 align-middle items-center justify-center bg-[#FFEBEC] py-24">
         <div className="flex flex-col justify-center items-center gap-8 px-4 flex-1">
           <LargeHeading className="drop-shadow-2xl text-[#231F20]">
-            Cups
+            Butterfly
           </LargeHeading>
           <Paragraph size="sm" className=" text-slate-600 text-center">
-            Welcome to our DIY Balloons section, where your creativity takes
-            center stage. Whether you are planning a special event or just
-            looking for a fun and personalized way to decorate, our DIY balloons
-            give you the power to transform your vision into reality.
+            Welcome to our Balloon Styling section, where we turn your
+            celebrations into works of art. Our team of expert stylists is
+            dedicated to transforming your events into unforgettable experiences
+            through the power of balloons.
           </Paragraph>
         </div>
         <div className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-4 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
-          {Items?.filter((data) => data.Type === "Cup").map(
+          {Items?.filter((data) => data.Theme === "Butterfly").map(
             (data: any, index) => {
-              const words = data.Name.split(" ");
+              const words = data.Type.split(" ");
               const transformedString = words
                 .map((word: string) => word.toLowerCase())
                 .join("_");
-
               return (
                 <div
                   key={index}
                   className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
                 >
                   <Link
-                    href={`/PARTY_SUPPLIES/cups/${data.ID}`}
+                    href={`/PARTY_SUPPLIES/${transformedString}/${data.ID}`}
                     className={`relative overflow-hidden md:w-auto cursor-pointer mb-10`}
                   >
                     <Image
                       width={1000}
                       height={1000}
                       className="object-cover aspect-square"
-                      src={`/cup/${data.Images[0]}`}
+                      src={`/${transformedString}/${data.Images[0]}`}
                       alt={data.Name as string}
                     />
                     <div className="px-4 py-8 w-72">

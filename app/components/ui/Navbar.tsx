@@ -69,11 +69,15 @@ function Navbar() {
         {MenuItems.map((content, position) => (
           <div className="dropdown" key={position}>
             {content.name === "PARTY BOXES" ? (
-              <Link href={"#party-boxes"} className="link font-semibold">
+              <Link href={"/#party-boxes"} className="link font-semibold">
                 {content.name}
               </Link>
             ) : content.name === "PARTY SUPPLIES" ? (
               <Link href={`/PARTY_SUPPLIES`} className="link font-semibold">
+                {content.name}
+              </Link>
+            ) : content.name === "SHOP BY THEME" ? (
+              <Link href={`/SHOP_BY_THEME`} className="link font-semibold">
                 {content.name}
               </Link>
             ) : (
@@ -102,7 +106,31 @@ function Navbar() {
                           key={index}
                           className="cursor-pointer w-full text-left p-1 hover:bg-slate-400 rounded hover:text-white transition duration-300 ease-in-out"
                         >
-                          {item}
+                          {item === "DIY Balloons" ? (
+                            <Link href={"/BALLOONS/diy_balloons"}>{item}</Link>
+                          ) : item === "Foil Balloons" ? (
+                            <Link href={"/BALLOONS/foil_balloons"}>{item}</Link>
+                          ) : item === "Balloon Styling" ? (
+                            <Link href={"/BALLOONS/balloon_styling"}>
+                              {item}
+                            </Link>
+                          ) : item === "Plates" ? (
+                            <Link href={"/PARTY_SUPPLIES/plates"}>{item}</Link>
+                          ) : item === "Cups" ? (
+                            <Link href={"/PARTY_SUPPLIES/cups"}>{item}</Link>
+                          ) : item === "Napkins" ? (
+                            <Link href={"/PARTY_SUPPLIES/napkins"}>{item}</Link>
+                          ) : item === "Straws" ? (
+                            <Link href={"/PARTY_SUPPLIES/straws"}>{item}</Link>
+                          ) : item === "Cake Topper" ? (
+                            <Link href={"/PARTY_SUPPLIES/cake_topper"}>
+                              {item}
+                            </Link>
+                          ) : (
+                            <Link href={"/BALLOONS/balloon_styling"}>
+                              {item}
+                            </Link>
+                          )}
                         </div>
                       );
                     } else {

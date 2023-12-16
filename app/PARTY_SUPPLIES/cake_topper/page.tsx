@@ -38,7 +38,7 @@ export default function Home() {
                       width={1000}
                       height={1000}
                       className="object-cover aspect-square"
-                      src={`/cakeToppers/${data.Images[0]}`}
+                      src={`/cake_topper/${data.Images[0]}`}
                       alt={data.Name as string}
                     />
                     <div className="px-4 py-8 w-72">
