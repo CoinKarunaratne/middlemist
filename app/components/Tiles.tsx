@@ -1,6 +1,6 @@
 "use client";
 
-import { Featured } from "../constants";
+import Link from "next/link";
 import LargeHeading from "./ui/LargeHeading";
 import Paragraph from "./ui/Paragraph";
 
@@ -22,7 +22,7 @@ const Tiles = () => {
       <div
         className={`hidden md:grid grid-cols-6 grid-rows-2 gap-4 w-full h-[80vw] xl:h-[50vw] px-5 lg:px-10 xl:px-20`}
       >
-        <div className="sm:col-span-4 card-zoom">
+        <Link href="/PARTY_SUPPLIES" className="sm:col-span-4 card-zoom">
           {" "}
           <div
             className={`bg-[url('/party-supplies.jpg')] card-zoom-image-party-supplies`}
@@ -33,8 +33,11 @@ const Tiles = () => {
           >
             Party Supplies
           </h1>
-        </div>
-        <div className="sm:col-span-2 sm:row-span-2 card-zoom">
+        </Link>
+        <Link
+          href="/PARTY_SUPPLIES/cake_topper"
+          className="sm:col-span-2 sm:row-span-2 card-zoom"
+        >
           {" "}
           <div className={`bg-[url('/cake-topper.jpg')] card-zoom-image`}></div>
           <h1
@@ -43,8 +46,11 @@ const Tiles = () => {
           >
             Cake <br /> Topper
           </h1>
-        </div>
-        <div className="sm:col-span-2 sm:row-span-1 card-zoom">
+        </Link>
+        <Link
+          href="/BALLOONS/diy_balloons"
+          className="sm:col-span-2 sm:row-span-1 card-zoom"
+        >
           {" "}
           <div
             className={`bg-[url('/DIY-Balloons.png')] card-zoom-image`}
@@ -55,8 +61,11 @@ const Tiles = () => {
           >
             DIY Balloons
           </h1>
-        </div>
-        <div className="sm:col-span-2 sm:row-span-1 card-zoom">
+        </Link>
+        <Link
+          href="/BALLOONS/balloon_styling"
+          className="sm:col-span-2 sm:row-span-1 card-zoom"
+        >
           {" "}
           <div
             className={`bg-[url('/party-styling.jpg')] card-zoom-image`}
@@ -67,7 +76,7 @@ const Tiles = () => {
           >
             Party Styling
           </h1>
-        </div>
+        </Link>
       </div>
       {/* mobile */}
       <div className="grid grid-cols-3 grid-rows-2 gap-4 w-full h-[100vw] px-2 md:hidden">

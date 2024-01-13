@@ -4,9 +4,9 @@ import LargeHeading from "../../components/ui/LargeHeading";
 import Navbar from "../../components/ui/Navbar";
 import Paragraph from "../../components/ui/Paragraph";
 import { Items } from "../../constants";
+import Link from "next/link";
 
 export default function Home() {
-  const filteredArray = Items.filter((data) => data.Type === "Foil Balloon");
   return (
     <main className="flex min-h-screen flex-col text-black">
       <Navbar />
@@ -16,50 +16,47 @@ export default function Home() {
             Foil Balloons
           </LargeHeading>
           <Paragraph size="sm" className=" text-slate-600 text-center">
-            Each box is a treasure trove of carefully curated party items,
-            ensuring your events theme is flawlessly executed. From whimsical to
-            elegant, our Party Boxes make party planning a breeze, delivering
-            all you need in one enchanting package
+            Welcome to our Balloon Styling section, where we turn your
+            celebrations into works of art. Our team of expert stylists is
+            dedicated to transforming your events into unforgettable experiences
+            through the power of balloons.
           </Paragraph>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full p-8 gap-4 container justify-items-center">
-          {filteredArray?.map((data: any, index: number) => {
-            return (
-              <div
-                key={index}
-                className={`relative overflow-hidden md:w-auto cursor-pointer`}
-              >
-                <Image
-                  width={1000}
-                  height={1000}
-                  className="object-cover aspect-square"
-                  src={`/foilBalloons/${data.Images[0]}`}
-                  alt={data as string}
-                />
-                <div className="flex flex-col gap-10 mt-10">
-                  <div className="self-center">
-                    <h1 className=" text-4xl text-center lg:text-left font-extrabold leading-tight tracking-tighter text-[#231F20]">
-                      {data.Name as string}
-                    </h1>
-                  </div>
+        <div className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-4 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
+          {Items?.filter((data) => data.Type === "Foil Balloon").map(
+            (data: any, index) => {
+              return (
+                <div
+                  key={index}
+                  className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+                >
+                  <Link
+                    href={`/BALLOONS/foil_balloons/${data.ID}`}
+                    className={`relative overflow-hidden md:w-auto cursor-pointer mb-10`}
+                  >
+                    <Image
+                      width={1000}
+                      height={1000}
+                      className="object-cover aspect-square"
+                      src={`/foil_balloon/${data.Images[0]}`}
+                      alt={data.Name as string}
+                    />
+                    <div className="px-4 py-8 w-72">
+                      <p className="text-lg font-bold text-black block capitalize">
+                        {data.Name}
+                      </p>
 
-                  <p className="text-slate-600 text-sm text-center">
-                    {data.Description}
-                  </p>
-                  <p className="text-slate-600 text-sm text-center">
-                    {data.Theme}
-                  </p>
-                  <p className="text-slate-600 text-sm text-center">
-                    {data.Dimension}
-                  </p>
-
-                  <button className="shop-now-button w-[80%] self-center">
-                    BUY NOW
-                  </button>
+                      <div className="flex items-center mt-2">
+                        <p className="text-base text-gray-600 cursor-auto ml-2">
+                          ${data.Price}.00
+                        </p>
+                      </div>
+                    </div>
+                  </Link>
                 </div>
-              </div>
-            );
-          })}
+              );
+            }
+          )}
         </div>
       </div>
       <Footer />

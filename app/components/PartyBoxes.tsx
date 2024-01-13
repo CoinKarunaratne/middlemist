@@ -5,11 +5,12 @@ import { PartyBox } from "../constants/index";
 import LargeHeading from "./ui/LargeHeading";
 import Paragraph from "./ui/Paragraph";
 import Image from "next/image";
+import Link from "next/link";
 
 const PartyBoxes: FC = ({}) => {
   const [showAll, setShowAll] = useState(false);
 
-  const visiblePartyBoxes = showAll ? PartyBox : PartyBox.slice(0, 3);
+  const visiblePartyBoxes = showAll ? PartyBox : PartyBox.slice(0, 6);
 
   return (
     <section id="party-boxes">
@@ -27,7 +28,8 @@ const PartyBoxes: FC = ({}) => {
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-3 w-full p-8 gap-4 container justify-items-center">
           {visiblePartyBoxes.map((data, index) => (
-            <div
+            <Link
+              href={`/PARTY_BOXES/${data.name}`}
               key={index}
               className={`relative overflow-hidden md:w-auto cursor-pointer`}
             >
@@ -38,7 +40,7 @@ const PartyBoxes: FC = ({}) => {
                 src={`/partyBoxes/${data.name}.png`}
                 alt={data.name}
               />
-            </div>
+            </Link>
           ))}
         </div>
 

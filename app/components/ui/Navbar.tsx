@@ -32,7 +32,14 @@ function Navbar() {
           />
         </div>
         <div className="flex-grow flex justify-center items-center">
-          <Image src="/Circular Logo.svg" alt="Logo" width={100} height={100} />
+          <Link href="/">
+            <Image
+              src="/Circular Logo.svg"
+              alt="Logo"
+              width={100}
+              height={100}
+            />
+          </Link>
         </div>
         <div className="relative">
           {menu && (
@@ -157,7 +164,73 @@ function Navbar() {
                                   key={subIndex}
                                   className="text-sm ml-2 cursor-pointer hover:opacity-50"
                                 >
-                                  {subItem}
+                                  {subItem === "Bee" ? (
+                                    <Link href={"/SHOP_BY_THEME/bee"}>
+                                      {subItem}
+                                    </Link>
+                                  ) : subItem === "Building Blocks" ? (
+                                    <Link
+                                      href={"/SHOP_BY_THEME/building_blocks"}
+                                    >
+                                      {subItem}
+                                    </Link>
+                                  ) : subItem === "Butterfly" ? (
+                                    <Link href={"/SHOP_BY_THEME/butterfly"}>
+                                      {subItem}
+                                    </Link>
+                                  ) : subItem === "Cars" ? (
+                                    <Link href={"/SHOP_BY_THEME/cars"}>
+                                      {subItem}
+                                    </Link>
+                                  ) : subItem === "Circus" ? (
+                                    <Link href={"/SHOP_BY_THEME/circus"}>
+                                      {subItem}
+                                    </Link>
+                                  ) : subItem === "Dino" ? (
+                                    <Link href={"/SHOP_BY_THEME/dino"}>
+                                      {subItem}
+                                    </Link>
+                                  ) : subItem === "Ice cream" ? (
+                                    <Link href={"/SHOP_BY_THEME/ice_cream"}>
+                                      {subItem}
+                                    </Link>
+                                  ) : subItem === "Jungle" ? (
+                                    <Link href={"/SHOP_BY_THEME/jungle"}>
+                                      {subItem}
+                                    </Link>
+                                  ) : subItem === "Mermaid" ? (
+                                    <Link href={"/SHOP_BY_THEME/mermaid"}>
+                                      {subItem}
+                                    </Link>
+                                  ) : subItem === "Princess" ? (
+                                    <Link href={"/SHOP_BY_THEME/princess"}>
+                                      {subItem}
+                                    </Link>
+                                  ) : subItem === "Space" ? (
+                                    <Link href={"/SHOP_BY_THEME/space"}>
+                                      {subItem}
+                                    </Link>
+                                  ) : subItem === "Unicorn" ? (
+                                    <Link href={"/SHOP_BY_THEME/unicorn"}>
+                                      {subItem}
+                                    </Link>
+                                  ) : subItem === "Baby Shower" ? (
+                                    <Link href={"/SHOP_BY_THEME/baby_shower"}>
+                                      {subItem}
+                                    </Link>
+                                  ) : subItem === "Bridal Shower" ? (
+                                    <Link href={"/SHOP_BY_THEME/bridal_shower"}>
+                                      {subItem}
+                                    </Link>
+                                  ) : subItem === "Gender Reveal" ? (
+                                    <Link href={"/SHOP_BY_THEME/gender_reveal"}>
+                                      {subItem}
+                                    </Link>
+                                  ) : (
+                                    <Link href={"/BALLOONS/balloon_styling"}>
+                                      {subItem}
+                                    </Link>
+                                  )}
                                 </li>
                               ))}
                           </ul>

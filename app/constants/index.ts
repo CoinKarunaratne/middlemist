@@ -122,6 +122,7 @@ export const BalloonStyling = [
 export const Items = [
   {
     Name: "MERMAID CAKE TOPPER",
+    Price: "6",
     Type: "Cake Topper",
     Description:
       "Throw a Beautiful Mermaid theme Birthday party with this elegant mermaid cake topper. Featuring Ocean shells, star fish and little mermaid cake topper will add finishing touch to your beautifully decorated cake. Pack contains 1 Rose gold mermaid cake topper",
@@ -144,6 +145,7 @@ export const Items = [
   },
   {
     Name: "BIRTHDAY 'QUEEN' CAKE TOPPER",
+    Price: "4",
     Type: "Cake Topper",
     Description:
       "Cake topper is a beautiful way to decorate your Birthday cake at your special day. Add this birthday ‘Queen’ cake topper to give the finishing touch for your beautifully decorated cake. Pack contains 1 Gold Birthday cake topper.",
@@ -163,6 +165,7 @@ export const Items = [
   },
   {
     Name: "FLAMINGO CAKE TOPPER",
+    Price: "6",
     Type: "Cake Topper",
     Description:
       "Cake topper is a beautiful way to decorate your Birthday cake at your special day. Add this colourful birthday flamingo cake topper to give the finishing touch for your beautifully decorated cake. Pack contains 1 Flamingo Gold Birthday cake topper.",
@@ -186,6 +189,7 @@ export const Items = [
   },
   {
     Name: "HAPPY ANNIVERSARY CAKE TOPPER",
+    Price: "6",
     Type: "Cake Topper",
     Description:
       "Cake topper is a beautiful way to decorate your cake at your special day. Add this Gold Anniversary cake topper to give the finishing touch for your beautifully decorated cake. Pack contains 1 Happy Anniversary cake topper.",
@@ -205,6 +209,7 @@ export const Items = [
   },
   {
     Name: "UNICORN CAKE TOPPER",
+    Price: "14",
     Type: "Cake Topper",
     Description:
       "Cake topper is a beautiful way to decorate your cake at your special day. Featuring cute little girl sitting on the magical unicorn will add extra magic to your unicorn birthday. Add this Elegant Unicorn cake topper as the finishing touch to your beautifully decorated cake. Pack contains 1 Unicorn cake topper",
@@ -228,6 +233,7 @@ export const Items = [
   },
   {
     Name: "RAINBOW CAKE TOPPER",
+    Price: "5",
     Type: "Cake Topper",
     Description:
       "Cake topper is a beautiful way to decorate your cake at your special day. Add this Magical Rainbow cake topper as the finishing touch to your beautifully decorated cake. Pack contains 1 Rainbow cake topper",
@@ -251,6 +257,7 @@ export const Items = [
   },
   {
     Name: "SAFARI HAPPY BIRTHDAYCAKE TOPPER",
+    Price: "6",
     Type: "Cake Topper",
     Description:
       "Cake topper is a beautiful way to decorate your cake at your special day. Add this Cute Animal cake topper as the finishing touch to your beautifully decorated cake. Pack contains 1 Safari Happy Birthday cake topper",
@@ -274,6 +281,7 @@ export const Items = [
   },
   {
     Name: "ONE HAPPY BIRTHDAY CAKE TOPPER",
+    Price: "4",
     Type: "Cake Topper",
     Description:
       "Cake topper is a beautiful way to decorate your cake at your special day. Add this ‘ONE’ cake topper as the finishing touch to your beautifully decorated cake for your little one’s first Birthday party. Pack contains 1 ‘ONE’ Happy Birthday cake topper",
@@ -296,6 +304,7 @@ export const Items = [
   },
   {
     Name: "0-9 NUMBER CAKE TOPPER",
+    Price: "4",
     Type: "Cake Topper",
     Description:
       "Cake topper is a beautiful way to decorate your cake at your special day. Add this cake topper as the finishing touch to your beautifully decorated cake. These Number cake toppers are ideal for birthday cake or cup cakes.",
@@ -319,6 +328,7 @@ export const Items = [
   },
   {
     Name: "HAPPY BIRTHDAY CAKE TOPPER",
+    Price: "4",
     Type: "Cake Topper",
     Description:
       "Cake topper is a beautiful way to decorate your cake at your special day. Add this cake topper as the finishing touch to your beautifully decorated cake. Pack contains 1 Gold Happy Birthday cake topper.",
@@ -338,6 +348,7 @@ export const Items = [
   },
   {
     Name: "HAPPY BIRTHDAY CAKE TOPPER",
+    Price: "4",
     Type: "Cake Topper",
     Description:
       "Cake topper is a beautiful way to decorate your cake at your special day. Add this cake topper as the finishing touch to your beautifully decorated cake. Pack contains 1 Gold Happy Birthday cake topper",
@@ -357,6 +368,7 @@ export const Items = [
   },
   {
     Name: "HAPPY BIRTHDAY CAKE TOPPER",
+    Price: "4",
     Type: "Cake Topper",
     Description:
       "Cake topper is a beautiful way to decorate your cake at your special day. Add this cake topper as the finishing touch to your beautifully decorated cake. Pack contains 1 Silver Happy Birthday cake topper",
@@ -379,6 +391,7 @@ export const Items = [
   },
   {
     Name: "HAPPY BIRTHDAY CAKE TOPPER",
+    Price: "4",
     Type: "Cake Topper",
     Description:
       "Cake topper is a beautiful way to decorate your cake at your special day. Add this cake topper as the finishing touch to your beautifully decorated cake. Pack contains 1 Rose Gold Happy Birthday cake topper",
@@ -401,6 +414,7 @@ export const Items = [
   },
   {
     Name: "HE OR SHE CAKETOPPER",
+    Price: "4",
     Type: "Cake Topper",
     Description:
       "Cake topper is a beautiful way to decorate your cake at your special day. Add this cake topper as the finishing touch to your beautifully decorated cake. Pack contains 1 He or She cake topper",
@@ -424,6 +438,7 @@ export const Items = [
   },
   {
     Name: "MERMAID CUP",
+    Price: "5",
     Type: "Cup",
     Description:
       "This beautiful iridescent mermaid cups are perfect addition to your mermaid theme birthday party. Each pack contains 8 pieces mermaid paper cup",
@@ -445,6 +460,7 @@ export const Items = [
   },
   {
     Name: "PRINCESS PAPER CUPS",
+    Price: "8",
     Type: "Cup",
     Description:
       "This beautiful pink paper cup is featuring a magical castle with gold foil pressed elements are perfect addition to your princess birthday party. Each pack contains 8 pieces mermaid paper cup",
@@ -464,6 +480,7 @@ export const Items = [
   },
   {
     Name: "UNICORN PAPER CUPS",
+    Price: "6",
     Type: "Cup",
     Description:
       "This pretty pastel peach unicorn paper cup is beautiful addition to your unicorn theme party. Featuring a fun magical unicorn in the rainbow will add more colours to your birthday party. Each pack contains 8 pieces paper cup",
@@ -483,6 +500,7 @@ export const Items = [
   },
   {
     Name: "FLAMINGO PAPER CUPS",
+    Price: "8",
     Type: "Cup",
     Description:
       "ALOHA!!! This Pretty pink flamingo paper cups are perfect addition to your flamingo or Tropical theme party. Featuring gorgeous colours, pair of flamingo, tropical fruit and gold foil details is the perfect way to serve refreshments at your party. Pair them with our flamingo paper plates or pineapple paper plates for fun flamingo or tropical party. Each pack contains 8 pieces paper cup",
@@ -502,6 +520,7 @@ export const Items = [
   },
   {
     Name: "BRIDAL SHOWER PAPER CUP",
+    Price: "8",
     Type: "Cup",
     Description:
       "Ready to tie the knot! These Elegant Bridal Shower Paper cups are featuring Greenery Eucalyptus with gold foil rim are perfect addition to your Bridal shower party!. Each pack contains 16 pieces paper cup",
@@ -523,6 +542,7 @@ export const Items = [
   },
   {
     Name: "BEE PAPER CUP",
+    Price: "8",
     Type: "Cup",
     Description:
       "This beautiful yellow colour paper cups featuring cute bees with yummy honeycomb will add cute addition to your bee theme party. Mix and match with our beautiful paper plates, straws and other decorations. Each pack contains 8 pieces paper cup",
@@ -542,6 +562,7 @@ export const Items = [
   },
   {
     Name: "SWEET UNICORN PAPER CUPS",
+    Price: "8",
     Type: "Cup",
     Description:
       "This sweet unicorn paper cups are perfect for serve refreshments in your magical unicorn birthday party. This paper cups are sweetest addition to your party and make memorable one. Mix and match with our beautiful paper plates, straws and other decorations. Each pack contains 8 pieces paper cup",
@@ -562,8 +583,10 @@ export const Items = [
     BalloonType: [],
     ID: "21",
   },
+
   {
     Name: "DINO PAPER CUPS",
+    Price: "6",
     Type: "Cup",
     Description:
       "This cute little Dino paper cups are coolest addition to your dinosaur theme party. Mix and match with our beautiful paper plates, straws, napkins and other decorations. Each pack contains 8 pieces paper cup",
@@ -583,6 +606,7 @@ export const Items = [
   },
   {
     Name: "GOLD PAPER CUPS",
+    Price: "7",
     Type: "Cup",
     Description:
       "Celebrate your special moments with these beautiful gold paper cups. You can match with these cups with our “oh baby “paper plates to throw an amazing baby shower party. Mix and match with our beautiful paper plates, straws, napkins and other decorations. Each pack contains 10 pieces paper cup",
@@ -602,6 +626,7 @@ export const Items = [
   },
   {
     Name: "WILD ONE PAPER CUPS",
+    Price: "9",
     Type: "Cup",
     Description:
       "BE WILD! This pretty paper cups are featuring floral ring with cute baby animals pressed on the paper cups. These paper cups are ideal for baby’s first birthday. Each pack contains 10 paper cups",
@@ -621,6 +646,7 @@ export const Items = [
   },
   {
     Name: "BUTTERFLY PAPER CUPS",
+    Price: "8",
     Type: "Cup",
     Description:
       "Serve the drinks for your guests with this beautiful butterfly paper cup. Featuring floral soft pink, and butterflies in the paper cups are surely impressed your guest. This paper cups are perfect for butterfly, garden or fairy theme party. Each pack contains 8 paper cups",
@@ -643,6 +669,7 @@ export const Items = [
   },
   {
     Name: "CIRCUS PAPER CUPS",
+    Price: "9",
     Type: "Cup",
     Description:
       "Serve the drinks for your guests with this cute party paper cup. This paper cup will bring joy and fun act for your little one who loved to go to carnival or circus. This paper cups are ideal for Circus or Carnival theme party. Each pack contains 8 paper cups",
@@ -662,6 +689,7 @@ export const Items = [
   },
   {
     Name: "WHEELS PAPER CUPS",
+    Price: "14",
     Type: "Cup",
     Description:
       "Serve the drinks for your guests with this cute party paper cup. This paper cup will bring joy and fun for your little one who loves the vehicle. This paper cups are ideal for Wheels or Construction theme party. Each pack contains 10 paper cups",
@@ -681,6 +709,7 @@ export const Items = [
   },
   {
     Name: "BLOCKS PAPER CUPS",
+    Price: "9",
     Type: "Cup",
     Description:
       "Serve the drinks for your guests with this cute party paper cup. This paper cup will bring joy and fun for your little one who loves to play with Blocks or Duplo. This paper cups are ideal for Blocks or Duplo theme party. Each pack contains 8 paper cups",
@@ -700,6 +729,7 @@ export const Items = [
   },
   {
     Name: "PINK PAPER CUPS",
+    Price: "9",
     Type: "Cup",
     Description:
       "Serve the drinks for your guests with this cute party paper cup. This paper cups are perfect for Ice cream theme party. Each pack contains 8 paper cups",
@@ -719,6 +749,7 @@ export const Items = [
   },
   {
     Name: "SILVER HAPPY ANNIVERSARY ROUND FOIL",
+    Price: "4",
     Type: "Foil Balloon",
     Description:
       "Add some beauty to your special day with this Silver Happy Anniversary round foil balloon. Featuring white & yellow flowers and the text ‘Happy Anniversary’ printed on a silver round foil balloon are great choice for your special day.",
@@ -738,6 +769,7 @@ export const Items = [
   },
   {
     Name: "GOLD HAPPY ANNIVERSARY ROUND FOIL",
+    Price: "4",
     Type: "Foil Balloon",
     Description:
       "Add some Glamour to your special day with this Gold Happy Anniversary round foil balloon. Featuring gold design and the text ‘Happy Anniversary’ printed on a white round foil balloon are great choice for your special day.",
@@ -757,6 +789,7 @@ export const Items = [
   },
   {
     Name: "BLUE HAPPY BIRTHDAY FOIL BALLOON",
+    Price: "4",
     Type: "Foil Balloon",
     Description:
       "These Pretty blue color foil balloon is perfect way to celebrate your birthday. These foil balloon will add instant beauty to your special day.",
@@ -776,6 +809,7 @@ export const Items = [
   },
   {
     Name: "PINK HAPPY BIRTHDAY FOIL BALLOON",
+    Price: "4",
     Type: "Foil Balloon",
     Description:
       "These Pretty Pink color foil balloon is perfect way to celebrate your birthday. These foil balloon will add instant beauty to your special day.",
@@ -795,6 +829,7 @@ export const Items = [
   },
   {
     Name: "IT’S A BOY FOIL BALLOON",
+    Price: "4",
     Type: "Foil Balloon",
     Description:
       "Celebrate the biggest upcoming arrival with this beautiful foil balloon. Featuring sky blue mix with green, cute baby clothes and the text ‘it’s a baby boy’ printed on the round foil balloon. This foil balloon is a great choice for baby shower or gender reveal party.",
@@ -814,6 +849,7 @@ export const Items = [
   },
   {
     Name: "IT’S A GIRL FOIL BALLOON",
+    Price: "4",
     Type: "Foil Balloon",
     Description:
       "Celebrate the biggest upcoming arrival with this beautiful foil balloon. Featuring cute baby clothes and the text ‘it’s a baby girl’ printed on the pink round foil balloon. This foil balloon is a great choice for baby shower or gender reveal party.",
@@ -833,6 +869,7 @@ export const Items = [
   },
   {
     Name: "LARGE ANIMAL FOIL BALLOON",
+    Price: "12",
     Type: "Foil Balloon",
     Description:
       "This Super cute Large Animal foil balloons are sure to delight at your jungle theme, safari theme, zoo theme, or any animal party theme birthday party. This foil balloons are sure way to impress your guest as well as your little ones. Quantity: 6pcs,  Shapes of Animals: Cow, Zebra, Lion, Monkey, Giraffe & Tiger",
@@ -860,6 +897,7 @@ export const Items = [
   },
   {
     Name: "SMALL ANIMAL FOIL BALLOON",
+    Price: "8",
     Type: "Foil Balloon",
     Description:
       "This Super cute Animal foil balloons are sure to delight at your jungle theme, safari theme, zoo theme, or any animal party theme birthday party. This foil balloons are sure way to impress your guest as well as your little ones. Quantity: 6pcs, Shapes of Animals: Cow, Zebra, Lion, Monkey, Giraffe & Tiger",
@@ -887,6 +925,7 @@ export const Items = [
   },
   {
     Name: "HAPPY BIRTHDAY FOIL BALLOON",
+    Price: "4",
     Type: "Foil Balloon",
     Description:
       "This Pretty colorful foil balloon is perfect way to celebrate your birthday. Featuring colorful candles and the text ‘Happy Birthday’ printed on the white foil balloon will add instant beauty to your special day.",
@@ -906,6 +945,7 @@ export const Items = [
   },
   {
     Name: "OUTER SPACE NAPKINS",
+    Price: "7",
     Type: "Napkin",
     Description:
       "Take a tour to the Outer Space with this awesome rocket shape napkins. This rocket shape napkins are perfect for space party. Pack contains 10 paper napkins",
@@ -925,6 +965,7 @@ export const Items = [
   },
   {
     Name: "SWEET PRINCESS NAPKINS",
+    Price: "4",
     Type: "Napkin",
     Description:
       "Celebrate your little princess birthday with this pastel pink gold foil pressed elements napkins. This napkins are simply beautiful and will add extra elegance to your princess birthday party. Pack contains 16 paper napkins",
@@ -944,6 +985,7 @@ export const Items = [
   },
   {
     Name: "OH BABY NAPKINS",
+    Price: "7",
     Type: "Napkin",
     Description:
       "Celebrate your special day with Botanical paper napkins featuring “oh baby” gold text on it. This is perfect for treat everyone in your special day. Pack contains 20 paper napkins",
@@ -967,6 +1009,7 @@ export const Items = [
   },
   {
     Name: "SWEET UNICORN NAPKINS",
+    Price: "5",
     Type: "Napkin",
     Description:
       "Host a magical unicorn birthday party with these beautiful napkins. These beautiful pastel pink napkins are cutest addition to your magical birthday. Pack contains 20 paper napkins",
@@ -986,6 +1029,7 @@ export const Items = [
   },
   {
     Name: "LITTLE DINO NAPKINS",
+    Price: "5",
     Type: "Napkin",
     Description:
       "Create a dinosaur kingdom party with these little dino napkins. Featuring all kind of colourful dinosaurs is perfect addition to your dinosaur party. Pack contains 10 paper napkins",
@@ -1008,6 +1052,7 @@ export const Items = [
   },
   {
     Name: "WILD ONE NAPKINS",
+    Price: "9",
     Type: "Napkin",
     Description:
       "BE WILD! Featuring beautiful floral ring with cute little animals will add instant beauty to your jungle or animal theme party. Pack contains 10 paper napkins",
@@ -1030,6 +1075,7 @@ export const Items = [
   },
   {
     Name: "BEE NAPKINS",
+    Price: "5",
     Type: "Napkin",
     Description:
       "BUZZZZ... These awesome yellow bee napkins are sure to delight at your bee theme birthday party. Featuring honeycomb, bees and flowers are add some colours to your event. Pack contains 10 paper napkins",
@@ -1049,6 +1095,7 @@ export const Items = [
   },
   {
     Name: "WHEELS NAPKINS",
+    Price: "15",
     Type: "Napkin",
     Description:
       "These awesome paper napkins are sure to delight at your Wheels theme birthday party. Featuring the Fire truck, school bus, police car, & construction vehicles pressed in blue stripe napkins are perfect for Wheels, Vehicle or Construction theme party. Pack contains 20 paper napkins",
@@ -1067,11 +1114,12 @@ export const Items = [
     ID: "46",
   },
   {
-    Name: "WHEELS NAPKINS",
+    Name: "CIRCUS NAPKINS",
+    Price: "9",
     Type: "Napkin",
     Description:
-      "These awesome paper napkins are sure to delight at your Wheels theme birthday party. Featuring the Fire truck, school bus, police car, & construction vehicles pressed in blue stripe napkins are perfect for Wheels, Vehicle or Construction theme party. Pack contains 20 paper napkins",
-    Theme: "Cars",
+      "These awesome paper napkins are sure to delight at your circus theme birthday party. Featuring all the circus animals and performers will add some fun to your party settings. Pack contains 10 paper napkins",
+    Theme: "Circus",
     Material: undefined,
     Colour: undefined,
     Text: undefined,
@@ -1087,6 +1135,7 @@ export const Items = [
   },
   {
     Name: "BUTTERFLY NAPKINS",
+    Price: "10",
     Type: "Napkin",
     Description:
       "These awesome paper napkins are sure to delight at your Butterfly theme birthday party. Featuring the flowers and butterfly pressed in soft pink napkins are perfect for Butterfly, Garden or Fairy theme party. Pack contains 20 paper napkins",
@@ -1106,6 +1155,7 @@ export const Items = [
   },
   {
     Name: "BLOCKS NAPKINS",
+    Price: "14",
     Type: "Napkin",
     Description:
       "These awesome paper napkins are sure to delight at your little ones Blocks theme birthday party. Featuring an iconic Block colours orange, red, yellow, green, royal blue and Happy Birthday Letters write down in the napkins are perfect for Blocks or Duplo theme party. Pack contains 10 paper napkins",
@@ -1125,6 +1175,7 @@ export const Items = [
   },
   {
     Name: "ICE CREAM NAPKINS",
+    Price: "11",
     Type: "Napkin",
     Description:
       "These awesome paper napkins are sure to delight at your little ones Ice cream theme birthday party.  Pack contains 20 paper napkins",
@@ -1146,6 +1197,7 @@ export const Items = [
   },
   {
     Name: "UNICORN THEME PAPER PLATES",
+    Price: "8",
     Type: "Plates",
     Description:
       "These Super cute Unicorn paper plates will add Fun and Magic to your party! Featuring pretty pastel peach plate with gold touch unicorn standing on the magical rainbow paper plates will add shine to your Unicorn Party! Pack of 8 plates",
@@ -1165,6 +1217,7 @@ export const Items = [
   },
   {
     Name: "PRINCESS PAPER PLATES",
+    Price: "8",
     Type: "Plates",
     Description:
       "These Elegant paper plates featuring blush pink with gold foil elements are beautiful addition to your Princess theme Birthday party!  Each pack contains 8 paper plates",
@@ -1188,6 +1241,7 @@ export const Items = [
   },
   {
     Name: "OUTER SPACE PAPER PLATES",
+    Price: "14",
     Type: "Plates",
     Description:
       "3...2.1 Blast-off Take a tour to the Outer Space with these exquisite paper plates. Featuring a space scene filled with stars, planets and rocket ships are perfect for Space or Astronaut themed birthday party. Each pack contains 8 paper plates",
@@ -1211,6 +1265,7 @@ export const Items = [
   },
   {
     Name: "SWEET UNICORN PAPER PLATES",
+    Price: "8",
     Type: "Plates",
     Description:
       "This pretty unicorn paper plates are perfect for celebrate magical birthday party. Featuring mint green and detail with rainbow, cupcake, ice cream, and adorable white unicorn add some colours to your event. Each pack contains 8 paper plates",
@@ -1230,6 +1285,7 @@ export const Items = [
   },
   {
     Name: "IN TO THE JUNGLE PAPER PLATES",
+    Price: "12",
     Type: "Plates",
     Description:
       "Calling all the Animals! This Beautiful paper plates are greatest addition to your wild, Jungle or Safari theme Birthday party. In the jungle you will found the zebra, snake, tiger, cheetah, and lion and get wild with these awesome plates. Each pack contains 8 paper plates",
@@ -1253,6 +1309,7 @@ export const Items = [
   },
   {
     Name: "MERMAID SHELL PAPER PLATE",
+    Price: "8",
     Type: "Plates",
     Description:
       "This Iridescent Sparkle shell paper plates are perfect for your mermaid theme birthday party and bring the ocean to your table. Each pack contains 8 paper plates",
@@ -1272,6 +1329,7 @@ export const Items = [
   },
   {
     Name: "BRIDAL SHOWER PAPER PLATES",
+    Price: "8",
     Type: "Plates",
     Description:
       "Ready to tie the knot! These Elegant Bridal Shower Paper plates are featuring Greenery Eucalyptus with gold foil rim are stylish addition to your Bridal shower party! Each pack contains 8 paper plates",
@@ -1291,6 +1349,7 @@ export const Items = [
   },
   {
     Name: "BEE PAPER PLATES",
+    Price: "13",
     Type: "Plates",
     Description:
       "BUZZZZZ....These cute Bee paper plates are featuring yellow honeycomb border with beautiful sunflower and bees pressed on the plate are perfect for bee party! Each pack contains 8 paper plates",
@@ -1310,6 +1369,7 @@ export const Items = [
   },
   {
     Name: "WILD ONE PAPER PLATES",
+    Price: "9",
     Type: "Plates",
     Description:
       "BE WILD! This pretty paper plate featuring floral ring with cute baby animal’s lion, elephant, giraffe and zebra pressed on the plate. These paper plates are ideal for baby’s first birthday. Each pack contains 8 paper plates",
@@ -1333,6 +1393,7 @@ export const Items = [
   },
   {
     Name: "OH BABY PAPER PLATES",
+    Price: "14",
     Type: "Plates",
     Description:
       "Celebrate your special day with Botanical paper plates featuring “oh baby” text on it. This is perfect for treat everyone in your special day. Each pack contains 8 paper plates",
@@ -1352,6 +1413,7 @@ export const Items = [
   },
   {
     Name: "DINO PAPER PLATES",
+    Price: "9",
     Type: "Plates",
     Description:
       "ROAR!!! Creating a fearsome Dinosaur Kingdom party with these beautiful Dino paper plates featuring all kind of colorful dinosaurs will perfect adding to your Dinosaur theme Birthday party. Each pack contains 8 paper plates",
@@ -1373,31 +1435,10 @@ export const Items = [
     BalloonType: [],
     ID: "61",
   },
-  {
-    Name: "DINO PAPER PLATES",
-    Type: "Plates",
-    Description:
-      "ROAR!!! Creating a fearsome Dinosaur Kingdom party with these beautiful Dino paper plates featuring all kind of colorful dinosaurs will perfect adding to your Dinosaur theme Birthday party. Each pack contains 8 paper plates",
-    Theme: "Dino",
-    Material: undefined,
-    Colour: undefined,
-    Text: undefined,
-    Dimension: "18 cm (7 inch)",
-    Images: [
-      "dino (2).jpg",
-      "dinosaur-birthday-themed-hot-sale-dispos_main-2.jpg",
-      "dinosaur-birthday-themed-hot-sale-dispos_main-4.jpg",
-    ],
-    BalloonOrPartyItem: "PartyItem",
-    New: false,
-    Sale: false,
-    PartyBox: true,
-    BoxType: [],
-    BalloonType: [],
-    ID: "62",
-  },
+
   {
     Name: "BUTTERFLY PAPER PLATES",
+    Price: "8",
     Type: "Plates",
     Description:
       "These Large Butterfly Paper Plates are Brighten your day. Featuring colourful flowers in the wings will add more colours to your birthday party. These plates are ideal for fairy, butterfly or garden theme birthday party. Each pack contains 8 paper plates",
@@ -1420,6 +1461,7 @@ export const Items = [
   },
   {
     Name: "CIRCUS PAPER PLATES",
+    Price: "11",
     Type: "Plates",
     Description:
       "These animal paper plates are perfect for Circus theme party. Featuring red stripes in white paper plates with big cat, lion, monkey, seal, elephant and ringmaster are performing their acts in the circus. Each pack contains 6 paper plates",
@@ -1439,6 +1481,7 @@ export const Items = [
   },
   {
     Name: "WHEELS PAPER PLATES",
+    Price: "14",
     Type: "Plates",
     Description:
       "VROOM...VROOM...Make your day busy with this beautiful motor vehicles. Featuring first responders, construction and school bus are perfect way to celebrate your Vehicle theme party. Each pack contains 10 paper plates",
@@ -1460,6 +1503,7 @@ export const Items = [
   },
   {
     Name: "BLOCKS PAPER PLATES",
+    Price: "10",
     Type: "Plates",
     Description:
       "This colorful paper plates are fun way to create your Lego or Duplo theme party for your little ones birthday. Featuring colorful Lego blocks prints on the white paper plates will add some excitement to your party table. Each pack contains 8 paper plates",
@@ -1482,6 +1526,7 @@ export const Items = [
   },
   {
     Name: "ICE CREAM PAPER PLATES",
+    Price: "15",
     Type: "Plates",
     Description:
       "Are you excited to having summer ice cream party? Add some flavors to your party with this yummy ice pop paper plates. Each pack contains 8 paper plates",
@@ -1503,6 +1548,7 @@ export const Items = [
   },
   {
     Name: "ICE CREAM PAPER PLATES",
+    Price: "13",
     Type: "Plates",
     Description:
       "Are you excited to having summer ice cream party? Add some flavors to your party with this yummy ice pop paper plates. Each pack contains 8 paper plates",
@@ -1512,7 +1558,7 @@ export const Items = [
     Text: undefined,
     Dimension: "9 Inch",
     Images: [
-      "9inch Plate 8pcs_summer-ice-cream-disposable-party-tablew_variants-2.jpg",
+      "23cm Plate 8pcs_summer-theme-activities-ice-cream-series_variants-6.jpg",
     ],
     BalloonOrPartyItem: "PartyItem",
     New: false,
@@ -1524,6 +1570,7 @@ export const Items = [
   },
   {
     Name: "WHITE & BLUE PAPER STRAWS",
+    Price: "5",
     Type: "Straws",
     Description:
       "Decorate your party table with these beautiful White and Blue striped biodegradable paper straw. Perfect for a birthday party, baby shower or family gathering. Each pack contains 10 paper straws.",
@@ -1545,6 +1592,7 @@ export const Items = [
   },
   {
     Name: "WHITE & YELLOW PAPER STRAWS",
+    Price: "9",
     Type: "Straws",
     Description:
       "Paper Straws are the perfect stylish little detail for Birthday party, Baby shower or Special event. Decorate your party table with this simple eco-friendly paper straw. Each pack contains 10 paper straws.",
@@ -1564,6 +1612,7 @@ export const Items = [
   },
   {
     Name: "WHITE & PINK PAPER STRAWS",
+    Price: "5",
     Type: "Straws",
     Description:
       "Paper Straws are the perfect stylish little detail for Birthday party, Baby shower or Special event. Decorate your party table with this simple eco-friendly paper straw. Each pack contains 10 paper straws.",
@@ -1583,6 +1632,7 @@ export const Items = [
   },
   {
     Name: "DINOSAUR STRAW",
+    Price: "6",
     Type: "Straws",
     Description:
       "Our Dinosaur Straws are Simple & Beautiful. Decorate your party table with these beautiful straws. Each pack contains 10 paper straws.",
@@ -1602,6 +1652,7 @@ export const Items = [
   },
   {
     Name: "UNICORN PAPER STRAW",
+    Price: "6",
     Type: "Straws",
     Description:
       "Add a little magic to your unicorn theme birthday party with these simple beautiful blue straws. Each pack contains 10 paper straws.",
@@ -1624,6 +1675,7 @@ export const Items = [
   },
   {
     Name: "FLAMINGO PAPER STRAW",
+    Price: "5",
     Type: "Straws",
     Description:
       "Enjoy serving refreshing beverages to your guest with these elegant paper straws. These 3D paper straws are great option for Hawaii, flamingo theme party. Each pack contains 10 paper straws.",
@@ -1646,6 +1698,7 @@ export const Items = [
   },
   {
     Name: "GOLD FOIL PAPER STRAW",
+    Price: "4",
     Type: "Straws",
     Description:
       "Decorate your party table with these simple paper straws. These paper straws are environmentally friendly and great choice for any party. Each pack contains 10 paper straws.",
@@ -1666,15 +1719,251 @@ export const Items = [
     BalloonType: [],
     ID: "75",
   },
+  {
+    Name: "IN TO THE JUNGLE PAPER CUPS",
+    Price: "10",
+    Type: "Cup",
+    Description:
+      "These beautiful pale green paper cups are a perfect addition to your jungle theme birthday party or any kind of events that you wish to celebrate with green. Mix and match with our beautiful paper plates, straws, napkins and other decorations. Each pack contains 8 pieces paper cup",
+    Theme: "Jungle",
+    Material: undefined,
+    Colour: undefined,
+    Text: undefined,
+    Dimension: undefined,
+    Images: ["Jungle.jpg"],
+    BalloonOrPartyItem: "PartyItem",
+    New: false,
+    Sale: false,
+    PartyBox: true,
+    BoxType: [],
+    BalloonType: [],
+    ID: "76",
+  },
+  {
+    Name: "OUTER SPACE PAPER CUPS",
+    Price: "5",
+    Type: "Cup",
+    Description:
+      "These sparkling silver colour cups are perfect for your outer space or astronaut theme birthday party or suitable for any kind of theme party. Mix and match with our beautiful paper plates, straws, napkins and other decorations. Each pack contains 8 pieces paper cup",
+    Theme: "Space",
+    Material: undefined,
+    Colour: undefined,
+    Text: undefined,
+    Dimension: undefined,
+    Images: [
+      "8pcs cups_mermaid-party-colorful-shell-disposable_variants-2.jpg",
+    ],
+    BalloonOrPartyItem: "PartyItem",
+    New: false,
+    Sale: false,
+    PartyBox: true,
+    BoxType: [],
+    BalloonType: [],
+    ID: "77",
+  },
+  {
+    Name: "MERMAID NAPKINS",
+    Type: "Napkin",
+    Description:
+      "These awesome mermaid napkins are sure to delight at your mermaid theme birthday party. Featuring starfish, sea shells, sea horse and little mermaid will add instant beauty to party settings. Pack contains 10 paper napkins",
+    Theme: "Mermaid",
+    Material: undefined,
+    Colour: undefined,
+    Text: undefined,
+    Dimension: "33 cm X 33 cm ",
+    Images: ["little-mermaid-party-decor-mermaid-birth_main-4.jpg"],
+    BalloonOrPartyItem: "PartyItem",
+    New: false,
+    Sale: false,
+    PartyBox: true,
+    BoxType: [],
+    BalloonType: [],
+    ID: "78",
+  },
 ];
 
 export const PartyBox = [
-  { name: "Ballet" },
-  { name: "Circus" },
-  { name: "Wheels" },
-  { name: "Blocks" },
-  { name: "Ice cream" },
-  // { name: "Butterfly" },
+  {
+    name: "Ballet",
+    title: "Little Ballerina Party Box",
+    Inclusions: [
+      "6 x Paper Plates (7 inches)",
+      "6 x Paper Cups",
+      "6 x Paper Hats",
+      "6 x Straws",
+      "6 x Masks",
+      "6 x Blowouts",
+    ],
+    description:
+      "Impress your guests with our beautiful ballet party theme set which is include everything you need to host a beautiful birthday party. This party box is wonderful choice for your little ones birthday.",
+  },
+  {
+    name: "Circus",
+    title: "Circus Party Box",
+    Inclusions: [
+      "6 x Circus Animal Plates ( 9inches)",
+      "6 x Circus Animal Paper Cups ",
+      "10 x Circus paper Napkins ( 32 cm x 32 cm)",
+      "1 x Circus theme Happy Birthday Paper Bunting Garland",
+    ],
+    description:
+      "Enjoy your party with this beautiful combination of party box. This party box includes everything that you need to host a circus or carnival theme party. Have some fun!!!",
+  },
+  {
+    name: "Wheels",
+    title: "Wheels Party Box",
+    Inclusions: [
+      "10 x Wheels Paper plates  ( 18 cm )",
+      "10 x Wheels Paper Cups",
+      "20 x Wheels paper Napkins ( 16.5 cm x 16.5 cm)",
+      "15 x Wheels Balloons ( 12 inch )",
+    ],
+    description:
+      "Throw a super cute vehicle theme birthday party with our Wheels party box. This party box includes everything you need to host a Vehicle or Construction theme party.",
+  },
+  {
+    name: "Blocks",
+    title: "Blocks Party Box",
+    Inclusions: [
+      "8 x Block party Paper plates (7 inch)",
+      "8 x Block party Paper cups",
+      "10 x Block party paper Napkins",
+      "1 x Blocks party Paper bunting garland ",
+    ],
+    description:
+      "This colorful Blocks party box is fun way to create your Lego or Duplo theme party for your little ones birthday. Featuring a block designs and attractive colors orange, yellow green, red and royal blue. Your kid will love it.  ",
+  },
+  {
+    name: "Ice_cream",
+    title: "Ice cream Party Box",
+    Inclusions: [
+      "16 x Ice Cream Paper Plates  ( 9inches & 23cm)",
+      "8 x Ice cream Paper Cups ",
+      "20 x Paper Napkins (33x33)",
+    ],
+    description:
+      "Enjoy your party with this beautiful combination of party box. This party box includes everything that you need to host a summer theme party. Have some fun!!!",
+  },
+  {
+    name: "Butterfly",
+    title: "Butterfly Party Box",
+    Inclusions: [
+      "8 x Butterfly Paper Plates ( 9inches)",
+      "8 x Butterfly Paper Cups",
+      "20 x Butterfly Napkins (33x33)",
+      "10 x Pink Paper Straws",
+    ],
+    description:
+      "Enjoy your party with this beautiful combination of party box. This party box includes everything that you need to host a Butterfly, Fairy and Garden theme party. Have some fun!!!",
+  },
+  {
+    name: "Wild",
+    title: "Into The Wild Party Box",
+    Inclusions: [
+      "10 x Paper Plates",
+      "10 x Paper Cups",
+      "10 x Paper straws",
+      "10 x Napkins (33cm x 33cm)",
+    ],
+    description:
+      "Enjoy your party with this beautiful combination of party box. This party box includes everything that you need to host a jungle, wild and safari theme party. Have some fun!!!",
+  },
+  {
+    name: "Bee",
+    title: "Bee Party Box",
+    Inclusions: [
+      "8 x Paper Plates",
+      "8 x Paper Cups",
+      "10 x Paper straws",
+      "10 x Napkins (33cm x 33cm)",
+    ],
+    description:
+      "Enjoy your party with this beautiful combination of party box. This party box includes everything that you need to host a Gender reveal or Bee birthday theme party. Have some fun!!!",
+  },
+  {
+    name: "Space",
+    title: "Outer Space Box",
+    Inclusions: [
+      "8 x Paper Plates",
+      "8 x Paper Cups",
+      "10 x Paper straws",
+      "10 x Napkins (16.5cm x 16.5cm)",
+    ],
+    description:
+      "Enjoy your party with this beautiful combination of party box. This party box includes everything that you need to host an outer space theme party. Have some fun!!!",
+  },
+  {
+    name: "Dinosaur",
+    title: "Dinosaur Box",
+    Inclusions: [
+      "10 x Paper Plates",
+      "10 x Paper Cups",
+      "10 x Paper straws",
+      "10 x Napkins (33cm x 33cm)",
+    ],
+    description:
+      "Enjoy your party with this beautiful combination of party box. This party box includes everything that you need to host a Dinosaur theme party. Have some fun!!!",
+  },
+  {
+    name: "Princess",
+    title: "Sweet Princess Box",
+    Inclusions: [
+      "8 x Paper Plates",
+      "8 x Paper Cups",
+      "1 x HBD bunting garland",
+      "16 x Napkins (25cm x 25cm)",
+    ],
+    description:
+      "Enjoy your party with this beautiful combination of party box. This party box includes everything that you need to host a Princess theme party. Have some fun!!!",
+  },
+  {
+    name: "Mermaid",
+    title: "Mermaid Party Box",
+    Inclusions: [
+      "8 x Paper Plates",
+      "8 x Paper Cups",
+      "10 x Paper straws",
+      "10 x Napkins (33cm x 33cm)",
+    ],
+    description:
+      "Enjoy your party with this beautiful combination of party box. This party box includes everything that you need to host a Mermaid theme party. Have some fun!!!",
+  },
+  {
+    name: "Unicorn",
+    title: "Unicorn Theme Party Box",
+    Inclusions: [
+      "8 x Paper Plates",
+      "8 x Paper Cups",
+      "10 x Paper straws",
+      "20 x Napkins (12.5cm x 12.5cm)",
+    ],
+    description:
+      "Enjoy your party with this beautiful combination of party box. This party box includes everything that you need to host a Unicorn theme party. Have some fun!!!",
+  },
+  {
+    name: "Wild_One",
+    title: "Wild One Party Box",
+    Inclusions: [
+      "8 x Paper Plates",
+      "8 x Paper Cups",
+      "10 x Paper straws",
+      "10 x Napkins (17cm x 17 cm)",
+    ],
+    description:
+      "Enjoy your party with this beautiful combination of party box. This party box includes everything that you need to host a Wild one theme party. Have some fun!!!",
+  },
+  {
+    name: "Unicorn_2",
+    title: "Unicorn Party Box",
+    Inclusions: [
+      "8 x Paper Plates",
+      "8 x Paper Cups",
+      "10 x Paper straws",
+      "Mini balloon Garland",
+    ],
+    description:
+      "Enjoy your party with this beautiful combination of party box. This party box includes everything that you need to host a unicorn theme party. Have some fun!!!",
+  },
 ];
 
 export const reviews = [
@@ -1713,5 +2002,30 @@ export const reviews = [
   {
     name: "joshua549",
     description: "Great trader",
+  },
+  {
+    name: "Lovedeep Kaur",
+    description:
+      "Thank you so much Middlemist. Decoration was fabulous. You did a wonderful job and I love your customer service too good. Highly recommended you never get disappointed 👏👏",
+  },
+  {
+    name: "Devid freg",
+    description:
+      "Great team with nice smile, and immaculate work. Highly recommend!!",
+  },
+  {
+    name: "Dilshani",
+    description:
+      "I'm delighted with the event planning and balloon arrangement for my recent celebration. The impeccable attention to detail and beautiful balloon arrangements made my event memorable, receiving numerous compliments. Highly recommend for those seeking an extra special touch. Thank you for making it magical!",
+  },
+  {
+    name: "Kavindra",
+    description:
+      "I cannot expect more from anywhere else. Had Really good communication with Navinda and they have done all my decos more than I expected.  I highly recommend working with them for the look and feel that you want in order to deliver a terrific event.",
+  },
+  {
+    name: "Reva",
+    description:
+      "Thank you guys for the amazing setup. We loved it 🥰. I have you as my go to event planner for sure.",
   },
 ];
