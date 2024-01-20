@@ -16,10 +16,10 @@ export default function Home() {
             Cups
           </LargeHeading>
           <Paragraph size="sm" className=" text-slate-600 text-center">
-            Welcome to our DIY Balloons section, where your creativity takes
-            center stage. Whether you are planning a special event or just
-            looking for a fun and personalized way to decorate, our DIY balloons
-            give you the power to transform your vision into reality.
+            Quench your guests thirst with our themed cups. Whether it is a
+            refreshing beverage or a signature cocktail, our cups add a touch of
+            flair to every sip. Choose from a range of vibrant colors and
+            designs to suit your party theme and keep the celebration flowing.
           </Paragraph>
         </div>
         <div className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-4 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">

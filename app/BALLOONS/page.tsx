@@ -57,10 +57,9 @@ export default function Home() {
                     <h1 className=" text-4xl text-center lg:text-left font-extrabold leading-tight tracking-tighter text-[#231F20]">
                       {data as string}
                     </h1>
-                    <h1 className="text-center text-[#231F20]">100 products</h1>
                   </div>
 
-                  <p className="text-slate-600 text-sm text-center h-24">
+                  <p className="text-slate-600 text-sm text-center h-32 mx-5">
                     {description}
                   </p>
                   <button className="shop-now-button w-[80%] self-center">

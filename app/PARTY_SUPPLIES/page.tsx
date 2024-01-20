@@ -16,8 +16,11 @@ export default function Home() {
             Party Supplies
           </LargeHeading>
           <Paragraph size="sm" className=" text-slate-600 text-center">
-            Discover our handpicked selection of featured products, curated to
-            bring style and quality to your every need
+            Explore our curated selection of party essentials designed to make
+            your events unforgettable. From vibrant decorations to themed
+            accessories, discover everything you need to turn your celebration
+            into a festive masterpiece. Let the party planning begin with
+            Middlemist Events!
           </Paragraph>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full p-8 gap-4 container justify-items-center">
@@ -27,21 +30,27 @@ export default function Home() {
               .map((word: string) => word.toLowerCase())
               .join("_");
             let description: string = "";
+            let subHeading: string = "";
             if (data === "Plates") {
+              subHeading = "Add Style to Your Feast";
               description =
-                "Dazzle your guests with our collection of foil balloons. These balloons are the epitome of shimmering elegance, adding a touch of glamour to your celebrations. With various shapes, sizes, and captivating designs, our foil balloons are perfect for making your special moments truly shine.";
+                "Dine in style with our collection of themed plates. From whimsical patterns to elegant designs, our plates are the perfect canvas for your party feast. Explore a variety of sizes and themes to elevate your table setting and make every bite a delight.";
             } else if (data === "Cups") {
+              subHeading = "Sip in Celebration";
               description =
-                "Welcome to our DIY Balloons section, where your creativity takes center stage. Whether you're planning a special event or just looking for a fun and personalized way to decorate, our DIY balloons give you the power to transform your vision into reality.";
+                "Quench your guests' thirst with our themed cups. Whether it's a refreshing beverage or a signature cocktail, our cups add a touch of flair to every sip. Choose from a range of vibrant colors and designs to suit your party theme and keep the celebration flowing.";
             } else if (data === "Napkins") {
+              subHeading = "Wipe Away Worries, Party On";
               description =
-                "Welcome to our Balloon Styling section, where we turn your celebrations into works of art. Our team of expert stylists is dedicated to transforming your events into unforgettable experiences through the power of balloons.";
+                "Stay mess-free and party-ready with our themed napkins. Practical and stylish, our napkins come in a variety of patterns to complement your party theme. Elevate your table decor and ensure a clean and classy celebration for you and your guests.";
             } else if (data === "Straws") {
+              subHeading = "Sip with Style";
               description =
-                "Welcome to our Balloon Styling section, where we turn your celebrations into works of art. Our team of expert stylists is dedicated to transforming your events into unforgettable experiences through the power of balloons.";
+                "Make every drink a celebration with our themed straws. Whether you're serving up smoothies or cocktails, our colorful and patterned straws add a playful touch to your beverages. Sip in style and let the good times flow.";
             } else if (data === "Cake Topper") {
+              subHeading = "Crown Your Confections";
               description =
-                "Welcome to our Balloon Styling section, where we turn your celebrations into works of art. Our team of expert stylists is dedicated to transforming your events into unforgettable experiences through the power of balloons.";
+                "Top off your party with our delightful cake toppers. Choose from an array of themes to match your celebration and add the perfect finishing touch to your cake. Make your desserts the centerpiece of the party with our whimsical and eye-catching cake toppers.";
             }
 
             return (
@@ -59,10 +68,12 @@ export default function Home() {
                 />
                 <div className="flex flex-col gap-10 mt-10">
                   <div className="self-center">
-                    <h1 className=" text-4xl text-center lg:text-left font-extrabold leading-tight tracking-tighter text-[#231F20]">
+                    <h1 className="text-4xl text-center font-extrabold leading-tight tracking-tighter text-[#231F20]">
                       {data as string}
                     </h1>
-                    <h1 className="text-center text-[#231F20]">100 products</h1>
+                    <h1 className="text-center text-[#231F20] mt-3">
+                      {subHeading as string}
+                    </h1>
                   </div>
 
                   <p className="text-slate-600 text-sm text-center h-36 px-5">

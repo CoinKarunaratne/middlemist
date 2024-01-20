@@ -1,14 +1,26 @@
 "use client";
 
 import Image from "next/image";
-import { MenuItems } from "../../constants";
+import {
+  MenuItems,
+  MainMenuItems,
+  BalloonsItems,
+  PartyItems,
+  ThemeItems,
+} from "../../constants";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
-import { useState } from "react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
+import { useEffect, useState } from "react";
 
 function Navbar() {
   const [menu, setMenu] = useState(false);
+  const [items, setItems] = useState([{ name: "", link: "" }]);
+
+  useEffect(() => {
+    setItems(MainMenuItems);
+  }, []);
+
   return (
     <>
       <div className="p-5 flex flex-col w-full">
@@ -50,21 +62,56 @@ function Navbar() {
               transition={{ type: "tween", duration: 0.25 }}
             >
               <ul className="flex flex-col gap-8">
-                {MenuItems.map((content, position) => (
+                {items !== MainMenuItems && (
+                  <motion.div
+                    className="flex justify-between cursor-pointer"
+                    initial={{ opacity: 0, translateX: 50 }}
+                    animate={{ opacity: 1, translateX: 0 }}
+                    transition={{ duration: 0.3, delay: 0.1 }}
+                    onClick={() => {
+                      setItems(MainMenuItems);
+                    }}
+                  >
+                    Back
+                    <ArrowLeft
+                      size={20}
+                      color="gray"
+                      className="cursor-pointer"
+                    />
+                  </motion.div>
+                )}
+                {items.map((content, position) => (
                   <motion.div
                     className="flex justify-between"
-                    key={position}
+                    key={content.name}
                     initial={{ opacity: 0, translateX: 50 }}
                     animate={{ opacity: 1, translateX: 0 }}
                     transition={{ duration: 0.3, delay: position * 0.2 }}
                   >
                     <Link
-                      href={`/${content.name}`}
+                      href={`${content.link}`}
                       className="font-semibold text-sm"
                     >
                       {content.name}
                     </Link>
-                    <ArrowRight size={20} color="gray" />
+                    {(content.name === "BALLOONS" ||
+                      content.name === "PARTY SUPPLIES" ||
+                      content.name === "SHOP BY THEME") && (
+                      <ArrowRight
+                        size={20}
+                        color="gray"
+                        className="cursor-pointer"
+                        onClick={() => {
+                          if (content.name === "BALLOONS") {
+                            setItems(BalloonsItems);
+                          } else if (content.name === "PARTY SUPPLIES") {
+                            setItems(PartyItems);
+                          } else if (content.name === "SHOP BY THEME") {
+                            setItems(ThemeItems);
+                          }
+                        }}
+                      />
+                    )}
                   </motion.div>
                 ))}
               </ul>
@@ -84,9 +131,7 @@ function Navbar() {
                 {content.name}
               </Link>
             ) : content.name === "SHOP BY THEME" ? (
-              <Link href={`/SHOP_BY_THEME`} className="link font-semibold">
-                {content.name}
-              </Link>
+              <div className="link font-semibold">{content.name}</div>
             ) : (
               <Link href={`/${content.name}`} className="link font-semibold">
                 {content.name}

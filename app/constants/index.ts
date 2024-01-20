@@ -1,6 +1,6 @@
 type MenuItem = {
   name: string;
-  dropdownItems?: (string | { name: string; dropdownItems: string[] })[];
+  link: string;
 };
 
 export const Featured = [
@@ -30,7 +30,7 @@ export const Featured = [
   },
 ];
 
-export const MenuItems: MenuItem[] = [
+export const MenuItems = [
   { name: "NEW" },
   {
     name: "BALLOONS",
@@ -68,6 +68,47 @@ export const MenuItems: MenuItem[] = [
     ],
   },
   { name: "SALE" },
+];
+
+export const MainMenuItems: MenuItem[] = [
+  { name: "NEW", link: "/NEW" },
+  { name: "BALLOONS", link: "/BALLOONS" },
+  { name: "PARTY SUPPLIES", link: "/PARTY_SUPPLIES" },
+  { name: "PARTY BOXES", link: "/#party-boxes" },
+  { name: "SHOP BY THEME", link: "/SHOP_BY_THEME" },
+  { name: "SALE", link: "/SALE" },
+];
+
+export const BalloonsItems: MenuItem[] = [
+  { name: "DIY Balloons", link: "/BALLOONS/diy_balloons" },
+  { name: "Foil Balloons", link: "/BALLOONS/foil_balloons" },
+  { name: "Balloon Styling", link: "/BALLOONS/balloon_styling" },
+];
+
+export const PartyItems: MenuItem[] = [
+  { name: "Plates", link: "/PARTY_SUPPLIES/plates" },
+  { name: "Cups", link: "/PARTY_SUPPLIES/cups" },
+  { name: "Napkins", link: "/PARTY_SUPPLIES/napkins" },
+  { name: "Straws", link: "/PARTY_SUPPLIES/straws" },
+  { name: "Cake Topper", link: "/PARTY_SUPPLIES/cake_topper" },
+];
+
+export const ThemeItems: MenuItem[] = [
+  { name: "Bridal Shower", link: "/SHOP_BY_THEME/bridal_shower" },
+  { name: "Baby Shower", link: "/SHOP_BY_THEME/baby_shower" },
+  { name: "Bee", link: "/SHOP_BY_THEME/bee" },
+  { name: "Butterfly", link: "/SHOP_BY_THEME/butterfly" },
+  { name: "Building Blocks", link: "/SHOP_BY_THEME/building_blocks" },
+  { name: "Circus", link: "/SHOP_BY_THEME/circus" },
+  { name: "Cars", link: "/SHOP_BY_THEME/cars" },
+  { name: "Dino", link: "/SHOP_BY_THEME/dino" },
+  { name: "Gender Reveal", link: "/SHOP_BY_THEME/gender_reveal" },
+  { name: "Ice cream", link: "/SHOP_BY_THEME/ice_cream" },
+  { name: "Jungle", link: "/SHOP_BY_THEME/jungle" },
+  { name: "Mermaid", link: "/SHOP_BY_THEME/mermaid" },
+  { name: "Princess", link: "/SHOP_BY_THEME/princess" },
+  { name: "Space", link: "/SHOP_BY_THEME/space" },
+  { name: "Unicorn", link: "/SHOP_BY_THEME/unicorn" },
 ];
 
 export const Events = [
@@ -256,7 +297,7 @@ export const Items = [
     ID: "6",
   },
   {
-    Name: "SAFARI HAPPY BIRTHDAYCAKE TOPPER",
+    Name: "SAFARI HAPPY BIRTHDAY CAKE TOPPER",
     Price: "6",
     Type: "Cake Topper",
     Description:
@@ -267,7 +308,6 @@ export const Items = [
     Text: undefined,
     Dimension: "15 cm x 15 cm",
     Images: [
-      "black_woodland-animals-cake-decor-soft-clay-li_variants-22 - Copy.jpg",
       "black_woodland-animals-cake-decor-soft-clay-li_variants-22.jpg",
       "jungle-animals-cactus-cake-toppers-happy_main-0 (1).jpg",
     ],

@@ -16,10 +16,10 @@ export default function Home() {
             Cake Toppers
           </LargeHeading>
           <Paragraph size="sm" className=" text-slate-600 text-center">
-            Welcome to our Balloon Styling section, where we turn your
-            celebrations into works of art. Our team of expert stylists is
-            dedicated to transforming your events into unforgettable experiences
-            through the power of balloons.
+            Top off your party with our delightful cake toppers. Choose from an
+            array of themes to match your celebration and add the perfect
+            finishing touch to your cake. Make your desserts the centerpiece of
+            the party with our whimsical and eye-catching cake toppers.
           </Paragraph>
         </div>
         <div className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-4 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">

@@ -6,18 +6,29 @@ const Footer: FC = ({}) => {
   return (
     <>
       <section id="footer" className="bg-[#9D9FA2] w-full">
-        <div className="flex flex-col gap-[100px] md:flex-row h-full w-full justify-center sm:justify-between py-3 px-10 text-lg text-white">
+        <div className="flex flex-col gap-8 md:gap-[100px] md:flex-row h-full w-full justify-center sm:justify-between py-10 md:py-3 px-10 text-lg text-white">
           <div className="flex flex-col justify-evenly">
-            <h1 className="mb-5 font-bold text-xl">Quick Links</h1>
+            <h1 className="mb-5 font-bold text-xl text-center md:text-left">
+              Quick Links
+            </h1>
 
             <div className="flex flex-col gap-1">
-              <Link href="/ABOUT" className="text-base">
+              <Link
+                href="/ABOUT"
+                className="text-base text-center md:text-left"
+              >
                 About
               </Link>
-              <Link href="/SHIPPING" className="text-base">
+              <Link
+                href="/SHIPPING"
+                className="text-base text-center md:text-left"
+              >
                 Shipping Policy
               </Link>
-              <Link href="/TERMS" className="text-base">
+              <Link
+                href="/TERMS"
+                className="text-base text-center md:text-left"
+              >
                 Terms & Conditions
               </Link>
             </div>
@@ -26,13 +37,13 @@ const Footer: FC = ({}) => {
             </h1>
           </div>
 
-          <div className="align-text-bottom flex flex-col h-auto relative">
+          <div className="align-text-bottom flex flex-col h-auto relative gap-10 md:gap-0">
             <Image
               src="/Vertical-logo.png"
               alt="Logo"
               width={300}
               height={300}
-              className="mb-10"
+              className="mb-10 self-center"
             />
 
             <div className="flex flex-col gap-1 mb-5">

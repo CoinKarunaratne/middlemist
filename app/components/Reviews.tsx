@@ -33,10 +33,10 @@ export default function Reviews() {
             Reviews
           </LargeHeading>
           <Paragraph size="sm" className=" text-slate-600 text-center">
-            Each box is a treasure trove of carefully curated party items,
-            ensuring your events theme is flawlessly executed. From whimsical to
-            elegant, our Party Boxes make party planning a breeze, delivering
-            all you need in one enchanting package
+            Discover the magic of Middlemist Events through the eyes of our
+            delighted customers. Dive into a collection of heartwarming stories
+            and glowing testimonials that showcase how our party supplies have
+            added that extra sparkle to celebrations.
           </Paragraph>
         </div>
         <div className="glass flex justify-center p-12 lg:p-16 xl:p-32">

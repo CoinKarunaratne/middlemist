@@ -16,10 +16,10 @@ export default function Home() {
             Straws
           </LargeHeading>
           <Paragraph size="sm" className=" text-slate-600 text-center">
-            Welcome to our Balloon Styling section, where we turn your
-            celebrations into works of art. Our team of expert stylists is
-            dedicated to transforming your events into unforgettable experiences
-            through the power of balloons.
+            Make every drink a celebration with our themed straws. Whether you
+            are serving up smoothies or cocktails, our colorful and patterned
+            straws add a playful touch to your beverages. Sip in style and let
+            the good times flow.
           </Paragraph>
         </div>
         <div className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-4 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">

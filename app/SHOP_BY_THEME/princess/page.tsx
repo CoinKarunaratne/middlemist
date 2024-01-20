@@ -16,10 +16,9 @@ export default function Home() {
             Princess
           </LargeHeading>
           <Paragraph size="sm" className=" text-slate-600 text-center">
-            Welcome to our Balloon Styling section, where we turn your
-            celebrations into works of art. Our team of expert stylists is
-            dedicated to transforming your events into unforgettable experiences
-            through the power of balloons.
+            Enter a fairytale with our Princess Themed Party Supplies. From
+            plates to cake toppers, make your celebration a royal affair. Reign
+            in the joy and let the princess dreams unfold!
           </Paragraph>
         </div>
         <div className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-4 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">

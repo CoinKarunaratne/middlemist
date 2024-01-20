@@ -16,8 +16,10 @@ export default function Home() {
             Shop By Theme
           </LargeHeading>
           <Paragraph size="sm" className=" text-slate-600 text-center">
-            Discover our handpicked selection of featured products, curated to
-            bring style and quality to your every need
+            Dive into a world of enchantment with our Unicorn Themed Party
+            Supplies. From plates to cake toppers, every detail is sprinkled
+            with magic. Create a whimsical celebration that delights and
+            captivates guests of all ages. Let the enchantment unfold!
           </Paragraph>
         </div>
         <div>

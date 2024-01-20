@@ -16,21 +16,15 @@ export default function Home() {
             Plates
           </LargeHeading>
           <Paragraph size="sm" className=" text-slate-600 text-center">
-            Dazzle your guests with our collection of foil balloons. These
-            balloons are the epitome of shimmering elegance, adding a touch of
-            glamour to your celebrations. With various shapes, sizes, and
-            captivating designs, our foil balloons are perfect for making your
-            special moments truly shine.
+            Dine in style with our collection of themed plates. From whimsical
+            patterns to elegant designs, our plates are the perfect canvas for
+            your party feast. Explore a variety of sizes and themes to elevate
+            your table setting and make every bite a delight.
           </Paragraph>
         </div>
         <div className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-4 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
           {Items?.filter((data) => data.Type === "Plates").map(
             (data: any, index) => {
-              const words = data.Name.split(" ");
-              const transformedString = words
-                .map((word: string) => word.toLowerCase())
-                .join("_");
-
               return (
                 <div
                   key={index}
