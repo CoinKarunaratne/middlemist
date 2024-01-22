@@ -11,6 +11,8 @@ const Hero: FC = () => {
       <div className="xl:pb-0 w-[90vw] bg-no-repeat mx-auto bg-image bg-[url('/background-3.jpg')] relative">
         <Image
           src="/background-3.jpg"
+          width={2000}
+          height={1000}
           alt="background"
           className="img-hidden"
         />
