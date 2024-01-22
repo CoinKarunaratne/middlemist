@@ -21,7 +21,7 @@ export default function Home() {
             <div className="flex flex-col gap-2">
               <h1 className="text-lg text-bold">Disclaimer</h1>
               <Paragraph size="sm" className=" text-slate-600 text-left">
-                Our goal is to depict all items with the utmost accuracy. It's
+                Our goal is to depict all items with the utmost accuracy. It is
                 important to recognize that not all items are portrayed to scale
                 and are solely for illustrative purposes. Colors may also
                 exhibit slight variations depending on the monitor or device

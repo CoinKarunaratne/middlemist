@@ -17,6 +17,7 @@ const Page: FC<pageProps> = ({ params }) => {
   useEffect(() => {
     const item = Items.find((data) => data.ID === params.id);
     setItem(item);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

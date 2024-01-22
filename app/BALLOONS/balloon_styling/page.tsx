@@ -40,7 +40,7 @@ export default function Home() {
                   <div className="hover:scale-110 transition duration-300 absolute bottom-0 top-0 right-0 left-0 scale-100"></div>
                 </div>
                 <div className="px-6 py-4 mb-auto  bg-white">
-                  <h1 className="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2">
+                  <h1 className="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out mb-2">
                     {data.name}
                   </h1>
                   <p className="text-gray-500 text-sm">{data.description}</p>

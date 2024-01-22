@@ -16,6 +16,7 @@ const Page: FC<pageProps> = ({ params }) => {
   useEffect(() => {
     const item = PartyBox.find((data) => data.name === params.id);
     setItem(item);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
