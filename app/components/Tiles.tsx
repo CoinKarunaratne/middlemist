@@ -80,7 +80,7 @@ const Tiles = () => {
       </div>
       {/* mobile */}
       <div className="grid grid-cols-3 grid-rows-2 gap-4 w-full h-[100vw] px-2 md:hidden">
-        <div className="col-span-1">
+        <Link href="/PARTY_SUPPLIES/cake_topper" className="col-span-1">
           {" "}
           <div
             className={`flex flex-col bg-[url('/cake-topper.jpg')] items-center justify-center h-full bg-center bg-cover relative`}
@@ -92,8 +92,8 @@ const Tiles = () => {
               Cake Topper
             </h1>
           </div>
-        </div>
-        <div className="col-span-1">
+        </Link>
+        <Link href="/BALLOONS/diy_balloons" className="col-span-1">
           {" "}
           <div
             className={`flex flex-col bg-[url('/DIY-Balloons.png')] items-center justify-center h-full bg-center bg-cover relative`}
@@ -105,8 +105,8 @@ const Tiles = () => {
               DIY Balloons
             </h1>
           </div>
-        </div>
-        <div className="col-span-1">
+        </Link>
+        <Link href="/BALLOONS/balloon_styling" className="col-span-1">
           {" "}
           <div
             className={`flex flex-col bg-[url('/party-styling.jpg')] items-center justify-center h-full bg-center bg-cover relative`}
@@ -118,8 +118,8 @@ const Tiles = () => {
               Party Styling
             </h1>
           </div>
-        </div>
-        <div className="col-span-3 row-span-1">
+        </Link>
+        <Link href="/PARTY_SUPPLIES" className="col-span-3 row-span-1">
           {" "}
           <div
             className={`flex flex-col bg-[url('/party-supplies.jpg')] items-center justify-center h-full bg-cover bg-top`}
@@ -131,7 +131,7 @@ const Tiles = () => {
               Party Supplies
             </h1>
           </div>
-        </div>
+        </Link>
       </div>
     </section>
   );

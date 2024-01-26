@@ -87,13 +87,31 @@ function Navbar() {
                     initial={{ opacity: 0, translateX: 50 }}
                     animate={{ opacity: 1, translateX: 0 }}
                     transition={{ duration: 0.3, delay: position * 0.2 }}
+                    onClick={() => {
+                      if (content.name === "BALLOONS") {
+                        setItems(BalloonsItems);
+                      } else if (content.name === "PARTY SUPPLIES") {
+                        setItems(PartyItems);
+                      } else if (content.name === "SHOP BY THEME") {
+                        setItems(ThemeItems);
+                      }
+                    }}
                   >
-                    <Link
-                      href={`${content.link}`}
-                      className="font-semibold text-sm"
-                    >
-                      {content.name}
-                    </Link>
+                    {content.name === "BALLOONS" ||
+                    content.name === "PARTY SUPPLIES" ||
+                    content.name === "SHOP BY THEME" ? (
+                      <div className="font-semibold text-sm cursor-pointer">
+                        {content.name}
+                      </div>
+                    ) : (
+                      <Link
+                        href={`${content.link}`}
+                        className="font-semibold text-sm"
+                      >
+                        {content.name}
+                      </Link>
+                    )}
+
                     {(content.name === "BALLOONS" ||
                       content.name === "PARTY SUPPLIES" ||
                       content.name === "SHOP BY THEME") && (
@@ -101,15 +119,6 @@ function Navbar() {
                         size={20}
                         color="gray"
                         className="cursor-pointer"
-                        onClick={() => {
-                          if (content.name === "BALLOONS") {
-                            setItems(BalloonsItems);
-                          } else if (content.name === "PARTY SUPPLIES") {
-                            setItems(PartyItems);
-                          } else if (content.name === "SHOP BY THEME") {
-                            setItems(ThemeItems);
-                          }
-                        }}
                       />
                     )}
                   </motion.div>
